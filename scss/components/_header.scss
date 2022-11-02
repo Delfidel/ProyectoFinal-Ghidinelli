@@ -1,0 +1,31 @@
+@import"../base/media-querys";
+@import"../base/variables";
+
+.header{
+    background-color: #1F1F24;
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    nav{
+        ul{
+            list-style-type: none;
+            font-size: 25px;
+            font-weight: 150;
+            li{
+                display: inline-block;
+                a{
+                    text-decoration:none ;
+                    color: white;
+                    display: flex;
+                    justify-content: flex-end;
+                    text-transform: uppercase;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}

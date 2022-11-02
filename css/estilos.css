@@ -1022,6 +1022,52 @@ footer {
   width: 100%;
   height: 90%; }
 
+.header {
+  background-color: #1F1F24;
+  position: sticky;
+  top: 0;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header nav ul {
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 150; }
+    .header nav ul li {
+      display: inline-block; }
+      .header nav ul li a {
+        text-decoration: none;
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px; }
+
+/*Colores*/
+/*Font Family*/
+/*Extends*/
+.boton a, .boton .enviar button, .main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .fotos, .main h2, .main .grid-content, .main .grid-content .flex-content, .main .grid-content .flex-content .piezasa1 h3, .main .grid-content .flex-content .piezasa1 .boton a, .main .grid-content .flex-content .piezasa1 .boton .enviar button, .main .grid-content .flex-content .piezasa h3, .main .grid-content .flex-content .piezasa .boton a, .main .hero, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza1 .botoncito, .main .grid-contenedor .pieza1 .botoncito a, .main .grid-contenedor .pieza2, .main .grid-contenedor .pieza2 .botoncito, .main .grid-contenedor .pieza2 .botoncito a, .main .grid-contenedor .pieza2 .botoncito a .enviar button, .main .ubi, .grid-conten .boda, .grid-conten .roja, .grid-conten .spaday, .grid-conten .relax, .grid-conten .botoncito a, .grid-conten .botoncito .enviar button {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.main .grid-contenedor .pieza2, .main .ubi {
+  margin: 80%;
+  height: 80%;
+  padding: 0.3125em;
+  margin: 0.3125em; }
+
+.main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza2, .main .grid-contenedor .flexsito {
+  box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
+
+.main .grid-contenedor .pieza1 .botoncito a {
+  width: 100%;
+  height: 90%; }
+
 .slider {
   width: 30%;
   margin: auto;
