@@ -1,0 +1,99 @@
+@import"../base/media-querys";
+@import"../base/animaciones";
+@import"../base/variables";
+@import"../base/generales";
+
+
+.main{
+    .grid-cont{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "casamiento reunion cumpleaños";
+        .casamiento{
+            grid-area: casamiento; 
+            display: grid;
+            @extend%flex;
+            font-family: $Font-always;
+            display: inline-block;
+            @extend%espacio;
+            margin: 1.25em;
+            width:55%;
+            height: 47%;
+            img{
+                width: 50%;
+                height: 30%;
+                display: inline-block;
+            }
+        }
+        .reunion{
+            grid-area: reunion; 
+            display: grid;
+            @extend%flex;
+            font-family: $Font-always;
+            display: inline-block;
+            @extend%espacio;
+            margin: 1.25em;
+            width:55%;
+            height: 47%;
+            img{
+                width: 50%;
+                height: 30%;
+                display: inline-block;
+            }
+        }
+        .cumpleaños{
+            grid-area:cumpleaños; 
+            display: grid;
+            @extend%flex;
+            font-family: $Font-always;
+            display: inline-block;
+            @extend%espacio;
+            margin: 1.25em;
+            width:55%;
+            height: 47%;
+            img{
+                width: 50%;
+                height: 30%;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

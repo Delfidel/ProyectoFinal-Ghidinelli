@@ -5,30 +5,27 @@
 
 .main{ 
     h2{
-        font-family: 'Montserrat', sans-serif;
+        font-family: $Font-always;
         color: #c4b107;
         font-size: 20px;
         margin: 3.125em;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @extend%flex;
     }
     .grid-content{ 
         column-gap: 0.9375em;
         row-gap: 0.625em; 
-        justify-content: center;
-        align-items: center;
+        @extend%flex;
+
             .flex-content{
+                @extend%flex;
                 width: 100%;
                 height: 50%;
-            display: flex;
-            margin: 1.25em;
-            padding: 1.25em;
-            justify-content: center;
-            display: inline-block;
+                margin: 1.25em;
+                padding: 1.25em;
+                display: inline-block;
             .piezasa1{
             display: grid;
-            font-family: 'Montserrat', sans-serif;
+            font-family: $Font-always;
             box-shadow: 10px 10px 5px 0px rgba(166,154,163,0.75);
             -webkit-box-shadow: 10px 10px 5px 0px rgba(166,154,163,0.75);
             -moz-box-shadow: 10px 10px 5px 0px rgba(166,154,163,0.75);
@@ -57,39 +54,37 @@
                 }
             } 
     h3{
-        display: flex;
-        font-family: 'Montserrat', sans-serif;
-        color: #c4b107;
-        text-align: center;
-        justify-content: center;
+        @extend%flex;
+        font-family:$Font-always;
+        color:$color-letras;
+
     }
     p{
-        margin-bottom: 20px;
-        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 1.25em;
+        font-family:$Font-always;
         text-align: center;
     }
     .boton{
         width: 85%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 40px;
-        margin: 30px;
+        gap: 2.5em;
+        margin: 1.875em;
         a{
             text-decoration: none;
             display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 900px;
-            height: 20px;
-            background-color: #1F1F24;
+            @extend%flex;
+            width: 90%;
+            height: 20%;
+            background-color:$color-principal;
             color: ivory;
-            font-family: 'Montserrat', sans-serif;
+            font-family: $Font-always;
             font-size: 15px;
             border: none;
             cursor: pointer;
             text-transform: uppercase;
             transition: .3s ease all;
-            border-radius: 5px;
+            border-radius: 0.3125em;
             position: relative;
             overflow: hidden;
             span{
@@ -100,12 +95,12 @@
         }
         &:after{
             content: "";
-            width: 900px;
-            height: 20px;
-            background: #c4b107 ;
+            width: 90%;
+            height: 20%;
+            background:$color-letras ;
             position: absolute;
             z-index: 1;
-            top: -80px;
+            top: -5rem;
             left: 0;
             transition: .3s ease-in-out all;
         }
@@ -113,40 +108,39 @@
             width: 85%;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 40px;
+            gap: 2.5rem;
                     button{
                         text-decoration: none;
                         display: inline-flex;
-                        align-items: center;
-                        justify-content: center;
-                        width: 900px;
-                        height: 20px;
-                        background-color: #1F1F24;
+                        @extend%flex;
+                        width: 90%;
+                        height:20%;
+                        background-color:$color-principal;
                         color: ivory;
-                        font-family: 'Montserrat', sans-serif;
+                        font-family:$Font-always;
                         font-size: 15px;
                         border: none;
                         cursor: pointer;
                         text-transform: uppercase;
                         transition: .3s ease all;
-                        border-radius: 5px;
+                        border-radius: 0.3125em;
                         position: relative;
                         overflow: hidden;
                         input{
                         position: relative;
                         z-index: 2;
                         transition: .3s ease all;
-                        font-family: 'Montserrat', sans-serif;
-                        background-color: #1F1F24;
-                            }
+                        font-family:$Font-always;
+                        background-color:$color-principal;
+                        }
                         &:after{
                         content: "";
-                        width: 900px;
-                        height: 20px;
-                        background: #c4b107 ;
+                        width: 90%;
+                        height: 20%;
+                        background:$color-letras ;
                         position: absolute;
                         z-index: 1;
-                        top: -80px;
+                        top: -5em;
                         left: 0;
                         transition: .3s ease-in-out all;
                             }
@@ -156,7 +150,7 @@
             }
             .piezasa{
                 display: grid;
-                font-family: 'Montserrat', sans-serif;
+                font-family:$Font-always;
                 box-shadow: 10px 10px 5px 0px rgba(166,154,163,0.75);
                 -webkit-box-shadow: 10px 10px 5px 0px rgba(166,154,163,0.75);
                 -moz-box-shadow: 10px 10px 5px 0px rgba(166,154,163,0.75);
@@ -185,15 +179,13 @@
                     }
                 } 
         h3{
-            display: flex;
-            font-family: 'Montserrat', sans-serif;
-            color: #c4b107;
-            text-align: center;
-            justify-content: center;
+            font-family:$Font-always;
+            color:$color-letras;
+            @extend%flex;
         }
         p{
-            margin-bottom: 20px;
-            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 1.25em;
+            font-family:$Font-always;
             text-align: center;
         }
         .boton{
@@ -205,19 +197,18 @@
             a{
                 text-decoration: none;
                 display: inline-flex;
-                align-items: center;
-                justify-content: center;
-                width: 900px;
-                height: 20px;
-                background-color: #1F1F24;
+                @extend%flex;
+                width: 90%;
+                height: 20%;
+                background-color: $color-principal;
                 color: ivory;
-                font-family: 'Montserrat', sans-serif;
+                font-family: $Font-always;
                 font-size: 15px;
                 border: none;
                 cursor: pointer;
                 text-transform: uppercase;
                 transition: .3s ease all;
-                border-radius: 5px;
+                border-radius: 0.3125em;
                 position: relative;
                 overflow: hidden;
                 span{
@@ -228,12 +219,12 @@
             }
             &:after{
                 content: "";
-                width: 900px;
-                height: 20px;
-                background: #c4b107 ;
+                width: 90%;
+                height: 20%;
+                background:$color-letras;
                 position: absolute;
                 z-index: 1;
-                top: -80px;
+                top: -5em;
                 left: 0;
                 transition: .3s ease-in-out all;
             }
@@ -241,40 +232,40 @@
                 width: 85%;
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
-                gap: 40px;
+                gap: 2.5em;
                         button{
                             text-decoration: none;
                             display: inline-flex;
                             align-items: center;
                             justify-content: center;
-                            width: 900px;
-                            height: 20px;
-                            background-color: #1F1F24;
+                            width: 90%;
+                            height: 20%;
+                            background-color:$color-principal;
                             color: ivory;
-                            font-family: 'Montserrat', sans-serif;
+                            font-family: $Font-always;
                             font-size: 15px;
                             border: none;
                             cursor: pointer;
                             text-transform: uppercase;
                             transition: .3s ease all;
-                            border-radius: 5px;
+                            border-radius: 0.3125em;
                             position: relative;
                             overflow: hidden;
                             input{
                             position: relative;
                             z-index: 2;
                             transition: .3s ease all;
-                            font-family: 'Montserrat', sans-serif;
-                            background-color: #1F1F24;
-                                }
+                            font-family:$Font-always;
+                            background-color:$color-principal;
+                            }
                             &:after{
                             content: "";
-                            width: 900px;
-                            height: 20px;
-                            background: #c4b107 ;
+                            width: 90%;
+                            height: 20%;
+                            background:$color-letras ;
                             position: absolute;
                             z-index: 1;
-                            top: -80px;
+                            top: -5em;
                             left: 0;
                             transition: .3s ease-in-out all;
                                 }

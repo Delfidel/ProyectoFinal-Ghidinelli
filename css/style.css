@@ -904,23 +904,6 @@ gap: 40px;
 
     20%{margin-left: -100%;}
     40%{margin-left: -100%;}
-    /*0%{margin-left: 0;}
-    30%{margin-left: 0;}
-
-    35%{margin-left: -100%;}
-    45%{margin-left: -100%;}
-
-    50%{margin-left: -200%;}
-    70%{margin-left: -200%;}
-
-    75%{margin-left: -300%;}
-    100%{margin-left: -3000%;}
-
-    150%{margin-left: -400%;}
-    170%{margin-left: -400%;}
-
-    185%{margin-left: -500%;}
-    200%{margin-left: -500%;}*/
 
 }
 .slider2{
@@ -955,7 +938,8 @@ gap: 40px;
 }
 
 /**EVENTOS**/
-.container {  display: grid;
+.container {  
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 0px 0px;

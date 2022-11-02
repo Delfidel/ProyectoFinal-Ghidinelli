@@ -1,0 +1,17 @@
+@import"../base/media-querys";
+@import"../base/animaciones";
+@import"../base/variables";
+@import"../base/generales";
+
+
+footer{
+    width: 100%;
+    height: 30%;
+    }
+    .fotos{
+            background-color: $color-principal;
+            position: sticky;
+            top: 0;
+            padding: 0.9375em;
+            @extend%flex;
+        }

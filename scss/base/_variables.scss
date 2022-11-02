@@ -1,0 +1,39 @@
+/*Colores*/
+$color-letras: #c4b107;
+$color-principal: #1F1F24;
+
+
+/*Font Family*/
+$Font-always: 'Montserrat', sans-serif;
+
+
+/*Extends*/
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%yoyo{
+    margin: 80%;
+    height: 80%;
+    padding: 0.3125em;
+    margin: 0.3125em;
+
+}
+
+%espacio{
+    box-shadow: 10px 10px 5px 0px rgba(166,154,163,0.75);
+                    -webkit-box-shadow: 10px 10px 5px 0px rgba(166,154,163,0.75);
+                    -moz-box-shadow: 10px 10px 5px 0px rgba(166,154,163,0.75);
+}
+%origin{
+    width: 100%;
+    height: 90%;
+}
+
+
+
+
+
+
