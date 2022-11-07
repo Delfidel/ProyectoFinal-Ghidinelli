@@ -3,7 +3,24 @@
 @import"../base/variables";
 @import"../base/generales";
 
+main{
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    padding-top: 50px;
+    h2{
+        font-weight: 600;
+        font-family: $Font-always;
+        color: $color-letras;
+    }
+    .btn{
+        a{
+            text-decoration: none;
+            color: black;
+        }
 
+    }
+}
 
 
 

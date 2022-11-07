@@ -4,65 +4,153 @@
 @import"../base/generales";
 
 
-.main{
+main{
     .grid-cont{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-        "casamiento reunion cumpleaños";
+        width: 100%;
+        max-width: 1200px;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        padding-top: 25px;
         .casamiento{
-            grid-area: casamiento; 
-            display: grid;
-            @extend%flex;
-            font-family: $Font-always;
-            display: inline-block;
+            width: 430px;
+            height: 420px;
+            border-radius: 8px;
             @extend%espacio;
-            margin: 1.25em;
-            width:55%;
-            height: 47%;
+            overflow: hidden;
+            margin: 20px;
+            text-align: center;
+            transition: all 0.25s;
+            padding: 25px;
+            &:hover{
+                transform: translateY(-15px);
+                @extend%espacio;
+            }
             img{
-                width: 50%;
-                height: 30%;
-                display: inline-block;
+                width: 330px;
+                height: 220px;
+            }
+            h4{
+                color: $color-letras;
+                font-family: $Font-always;
+                font-weight: 600;
+            }
+            p{
+                font-family: $Font-always;
+            }
+            .btn{
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+        
             }
         }
         .reunion{
-            grid-area: reunion; 
-            display: grid;
-            @extend%flex;
-            font-family: $Font-always;
-            display: inline-block;
+            width: 430px;
+            height: 420px;
+            border-radius: 8px;
             @extend%espacio;
-            margin: 1.25em;
-            width:55%;
-            height: 47%;
+            overflow: hidden;
+            margin: 20px;
+            text-align: center;
+            transition: all 0.25s;
+            padding: 25px;
+            &:hover{
+                transform: translateY(-15px);
+                @extend%espacio;
+            }
             img{
-                width: 50%;
-                height: 30%;
-                display: inline-block;
+                width: 330px;
+                height: 220px;
+            }
+            h4{
+                color: $color-letras;
+                font-family: $Font-always;
+                font-weight: 600;
+            }
+            p{
+                font-family: $Font-always;
+            }
+            .btn{
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+        
             }
         }
         .cumpleaños{
-            grid-area:cumpleaños; 
-            display: grid;
-            @extend%flex;
-            font-family: $Font-always;
-            display: inline-block;
+            width: 430px;
+            height: 420px;
+            border-radius: 8px;
             @extend%espacio;
-            margin: 1.25em;
-            width:55%;
-            height: 47%;
+            overflow: hidden;
+            margin: 20px;
+            text-align: center;
+            transition: all 0.25s;
+            &:hover{
+                transform: translateY(-15px);
+                @extend%espacio;
+            }
             img{
-                width: 50%;
-                height: 30%;
-                display: inline-block;
+                width: 330px;
+                height: 220px;
+            }
+            h4{
+                color: $color-letras;
+                font-family: $Font-always;
+                font-weight: 600;
+            }
+            p{
+                font-family: $Font-always;
+            }
+            .btn{
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+        
+            }
+        }
+        .catadevino{
+            width: 430px;
+            height: 420px;
+            border-radius: 8px;
+            @extend%espacio;
+            overflow: hidden;
+            margin: 20px;
+            text-align: center;
+            transition: all 0.25s;
+            &:hover{
+                transform: translateY(-15px);
+                @extend%espacio;
+            }
+            img{
+                width: 330px;
+                height: 220px;
+            }
+            h4{
+                color: $color-letras;
+                font-family: $Font-always;
+                font-weight: 600;
+            }
+            p{
+                font-family: $Font-always;
+            }
+            .btn{
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+        
             }
         }
     }
 }
+
 
 
 

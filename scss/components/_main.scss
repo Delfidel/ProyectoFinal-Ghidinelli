@@ -3,304 +3,166 @@
 @import"../base/variables";
 @import"../base/generales";
 
-.main{
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-    "hero hero"
-    "gridcontenedor gridcontenedor"
-    "encontranos encontranos"; 
-    height: 50%;
-    .hero{
-        grid-area: hero;
-        background-image: url("../img/fondooo.jpg");
-        width: 100% ;
-        height: 35%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment:fixed ;
-        @extend%flex;
-        font-family: $Font-always;
-        text-decoration: none;
-        h3{
-            color: $color-letras;
-        }
-        }
-            .grid-contenedor {  
-                display: grid; 
-                grid-template-columns: 1fr 1fr; 
-                grid-template-rows: 1fr 1fr; 
-                gap: 0px 0px; 
-                grid-template-areas: 
-                "pieza1 pieza2"
-                "seccion-gastro seccion-gastro"; 
-                grid-area: gridcontenedor;
-                .pieza1{
-                    display: grid;
-                    grid-area:pieza1 ;
-                    @extend%flex;
-                    font-family: $Font-always;
-                    display: inline-block;
-                    width: 80%;
-                    height: 80%;
-                    @extend%espacio;
-                    margin: 1.25em;
-                    padding: 0.3125em;
-                    img{
-                        width: 90%;
-                        height: 60%;
-                        display: inline-block;
-                        
-                    }
-                    h3{
-                        color: $color-letras;
-                        background-image: none;
-                        font-size: 30px;
-                        text-align: center;
-                        display: inline-block;
-                        
-                    }
-                    p{
-                        margin-bottom: 1.25em;
-                        font-family: $Font-always;
-                        text-align: center;
-                    }
-                    .botoncito{
-                        width: 50%;
-                        display: grid;
-                        grid-template-columns: repeat(3, 1fr);
-                        gap: 2.5em;
-                        margin: 1.875em;
-                        @extend%flex;
-                        background-color:$color-principal;
-                        a{
-                            text-decoration: none;
-                            display: inline-flex;
-                            @extend%flex;
-                            @extend%origin;
-                            background-color:$color-principal;
-                            color: ivory;
-                            font-family: $Font-always;
-                            font-size: 15px;
-                            border: none;
-                            cursor: pointer;
-                            text-transform: uppercase;
-                            transition: .3s ease all;
-                            border-radius: 0.3125em;
-                            position: relative;
-                            overflow: hidden;
-                            span{
-                                position: relative;
-                                z-index: 2;
-                                transition: .3s ease all;
-                            }
-                        
-                        &:after{
-                            content: "";
-                            width: 40%;
-                            height: 20%;
-                            background:$color-letras ;
-                            position: absolute;
-                            z-index: 1;
-                            top: -5em;
-                            left: 0;
-                            transition: .3s ease-in-out all;
-                            &:hover{
-                                top: 0;
-                            }
-                        }
-                    }
-                    }
-                }
-                .pieza2{
-                    display: inline-block;
-                    display: grid;
-                    grid-area:pieza2 ;
-                    @extend%flex;
-                    font-family:$Font-always;
-                    @extend%espacio;
-                    @extend%yoyo;
-                    img{
-                        width: 90%;
-                        height: 60%;
-                        display: inline-block;
-                    
-                    }
-                    h3{
-                        color: $color-letras;
-                        background-image: none;
-                        font-size: 30px;
-                        text-align: center;
-                        display: inline-block;
-                        margin: 0.3125em;
-                    }
-                    p{
-                        margin-bottom: 0.3125em;
-                        font-family: $Font-always;
-                        text-align: center;
-                    }
-                    .botoncito{
-                        width: 50%;
-                        display: grid;
-                        grid-template-columns: repeat(3, 1fr);
-                        gap: 2.5em;
-                        margin: 1.875em;
-                        @extend%flex;
-                        background-color:$color-principal;
-                        a{
-                            text-decoration: none;
-                            display: inline-flex;
-                            @extend%flex;
-                            width: 40.6% ;
-                            height: 2%;
-                            background-color: $color-principal;
-                            color: ivory;
-                            font-family: $Font-always;
-                            font-size: 15px;
-                            border: none;
-                            cursor: pointer;
-                            text-transform: uppercase;
-                            transition: .3s ease all;
-                            border-radius: 0.3125em;
-                            position: relative;
-                            overflow: hidden;
-                            span{
-                                position: relative;
-                                z-index: 2;
-                                transition: .3s ease all;
-                            }
-                        
-                        &:after{ /*ver si no es al revés, hover padre de after*/
-                            content: "";
-                            width: 40.6%;
-                            height: 40%;
-                            background:$color-letras;
-                            position: absolute;
-                            z-index: 1;
-                            top: -5em;
-                            left: 0;
-                            transition: .3s ease-in-out all;
-                            &:hover{
-                                top: 0;
-                            }
-                        }
-                        .enviar {
-                            width: 85%;
-                            display: grid;
-                            grid-template-columns: repeat(3, 1fr);
-                            gap: 2.5em;
-                            button{
-                                text-decoration: none;
-                                display: inline-flex;
-                                @extend%flex;
-                                width:  60%;
-                                height: 2%;
-                                background-color:$color-principal;
-                                color: ivory;
-                                font-family: $Font-always;
-                                font-size: 15px;
-                                border: none;
-                                cursor: pointer;
-                                text-transform: uppercase;
-                                transition: .3s ease all;
-                                border-radius: 0.3125rem;
-                                position: relative;
-                                overflow: hidden;
-                                input{
-                                    color: aliceblue;
-                                    position: relative;
-                                    z-index: 2;
-                                    transition: .3s ease all;
-                                    background-color: $color-principal ;
-                                    position: relative;
-                                    z-index: 2;
-                                    transition: .3s ease all;
-                                    font-family:$Font-always;
-                                }
-                            }
-                            &hover{ 
-                                &:after{
-                                    content: "";
-                                    width: 60%;
-                                    height: 2%;
-                                    background:$color-letras;
-                                    position: absolute;
-                                    z-index: 1;
-                                    top: -5em;
-                                    left: 0;
-                                    transition: .3s ease-in-out all;
-                                }
-                            }
-                            }
-                    }
-                }
-                }
-                .flexsito{
-                    display: grid;
-                    grid-area: seccion-gastro;
-                    display: flex;
-                    @extend%espacio;
-                    display: inline-flex;
-                    width:  95% ;
-                    height: 45%;
-                    margin: 0.625em;
-                    font-family:$Font-always;  
-                    .cocina{
-                        display: flex;
-                        justify-content: flex-end;
-                        text-align: left;
-                        margin: 0.9375em;
-                        display: table;
-                        
-                        h2{
-                            display: flex;
-                            color: $color-letras;
-                            background-image: none;
-                            font-size: 20px;
-                            font-family: $Font-always;
-                            text-align: justify;
-                        }
-                        p{
-                            margin: 0.3125em;
-                            display: table-cell;
-                            font-family: $Font-always;
-                            margin: 0;
-                            padding: 0 1rem;
-                            vertical-align: middle;
-                            
-                        }
-                        img{
-                            display: inline-block;
-                            width: 80%;
-                            height: 50%;
-                            display: flex;
-                            justify-content: flex-end;
-                        }
-                    }
-            }
-        }
-        
-        .ubi{
-            @extend%flex;
-            font-family: $Font-always;
-            display: inline-block;
-            @extend%flex;
-            @extend%yoyo;
-            background-color: aliceblue;
-            display: grid;
-            grid-area: encontranos;
 
-            h4{
-                color: $color-letras;
-                font-family: $Font-always;
-                font-size: 20px;
-            }
-            iframe{
-                width: 50%;
-                height: 50%;
+body{
+    .grid-mayor{
+        .gridis{
+            .navbar{
+                .container-fluid{
+                    ul{
+                        list-style-type: none;
+                        font-size: 25px;
+                        font-weight: 150;
+                        li{
+                            display: inline-block;
+                            a{
+                                text-decoration:none ;
+                                color: white;
+                                display: flex;
+                                justify-content: flex-end;
+                                text-transform: uppercase;
+                                font-family: $Font-always;
+                                font-size: 1.5625em;
+                            }
+                        }
+                    }
+                }
             }
         }
+    }
+    main{
+        div{
+            h2{
+                font-family: $Font-always;
+                color: $color-letras;
+            }
+            p{
+                font-family: $Font-always;
+                @extend%flex;
+            }
+        }
+        .piezas{
+            width: 100%;
+            max-width: 1200px;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: auto;
+            padding-top: 25px;
+            .habi1{
+                width: 430px;
+                height: 520px;
+                border-radius: 8px;
+                @extend%espacio;
+                overflow: hidden;
+                margin: 20px;
+                text-align: center;
+                transition: all 0.25s;
+                padding: 25px;
+                &:hover{
+                    transform: translateY(-15px);
+                    @extend%espacio;
+                }
+                img{
+                    width: 330px;
+                    height: 330px;
+                }
+                h3{
+                    color: $color-letras;
+                    font-weight: 600 ;
+                }
+                p{
+                    font-family: $Font-always;
+                }
+                .btn{
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+            .habi2{
+                width: 430px;
+                height: 520px;
+                border-radius: 8px;
+                @extend%espacio;
+                overflow: hidden;
+                margin: 20px;
+                text-align: center;
+                transition: all 0.25s;
+                padding: 25px;
+                &:hover{
+                    transform: translateY(-15px);
+                    @extend%espacio;
+                }
+                img{
+                    width: 330px;
+                    height: 330px;
+                }
+                h3{
+                    color: $color-letras;
+                    font-weight: 600 ;
+                }
+                p{
+                    font-family: $Font-always;
+                }
+                .btn{
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }    
+        }
+        .gastronomica{
+                width: 930px;
+                max-width: 1200px;
+                height: 520px;
+                border-radius: 8px;
+                @extend%espacio;
+                overflow: hidden;
+                margin: 20px;
+                text-align: center;
+                transition: all 0.25s;
+                padding: 25px;
+                position: center;
+                &:hover{
+                    transform: translateY(-15px);
+                    @extend%espacio;
+                }
+                img{
+                    width: 530px;
+                    height: 330px;
+                }
+                h3{
+                    color: $color-letras;
+                    font-weight: 600 ;
+                }
+                p{
+                    font-family: $Font-always;
+                }
+                @include tablet{
+                    width: 430px;
+                    height: 520px;
+                    border-radius: 8px;
+                    overflow: hidden;
+                    margin: 20px;
+                    text-align: center;
+                    transition: all 0.25s;
+                    padding: 25px;
+                }
+                @include mobile{
+                    width: 430px;
+                    height: 520px;
+                    border-radius: 8px;
+                    overflow: hidden;
+                    margin: 20px;
+                    text-align: center;
+                    transition: all 0.25s;
+                    padding: 25px;
+                }
+        }
+    }
+
 }

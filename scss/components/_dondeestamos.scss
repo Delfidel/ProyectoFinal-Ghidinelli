@@ -1,0 +1,45 @@
+@import "../base/animaciones";
+@import "../base/generales";
+@import "../base/media-querys";
+@import "../base/variables";
+
+
+body{
+    main{
+        .nuestra-ubi{
+            width: 100%;
+            max-width: 1200px;
+            height: 630px;
+            h2{
+                padding-top: 40px;
+                color: $color-letras;
+                font-family: $Font-always;
+                font-weight: 600;
+            }
+            p{
+                font-family: $Font-always;
+            }
+            iframe{
+                width: 330px;
+                height: 330px;
+            }
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

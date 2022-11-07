@@ -2,25 +2,15 @@
 /*Colores*/
 /*Font Family*/
 /*Extends*/
-.boton a, .boton .enviar button, .main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .fotos, .main h2, .main .grid-content, .main .grid-content .flex-content, .main .grid-content .flex-content .piezasa1 h3, .main .grid-content .flex-content .piezasa1 .boton a, .main .grid-content .flex-content .piezasa1 .boton .enviar button, .main .grid-content .flex-content .piezasa h3, .main .grid-content .flex-content .piezasa .boton a, .main .hero, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza1 .botoncito, .main .grid-contenedor .pieza1 .botoncito a, .main .grid-contenedor .pieza2, .main .grid-contenedor .pieza2 .botoncito, .main .grid-contenedor .pieza2 .botoncito a, .main .grid-contenedor .pieza2 .botoncito a .enviar button, .main .ubi, .grid-conten .boda, .grid-conten .roja, .grid-conten .spaday, .grid-conten .relax, .grid-conten .botoncito a, .grid-conten .botoncito .enviar button {
+.boton a, .boton .enviar button, .fotos, main h2, body main div p {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.main .grid-contenedor .pieza2, .main .ubi {
-  margin: 80%;
-  height: 80%;
-  padding: 0.3125em;
-  margin: 0.3125em; }
-
-.main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza2, .main .grid-contenedor .flexsito {
+main .grid-cont .casamiento, main .grid-cont .casamiento:hover, main .grid-cont .reunion, main .grid-cont .reunion:hover, main .grid-cont .cumpleaños, main .grid-cont .cumpleaños:hover, main .grid-cont .catadevino, main .grid-cont .catadevino:hover, main .grid-content div .piezasa1, main .grid-content div .piezasa1:hover, main .grid-content div .piezasa2, main .grid-content div .piezasa2:hover, body main .piezas .habi1, body main .piezas .habi1:hover, body main .piezas .habi2, body main .piezas .habi2:hover, body main .gastronomica, body main .gastronomica:hover, .grid-conteni .boda, .grid-conteni .boda:hover, .grid-conteni .roja, .grid-conteni .roja:hover, .grid-conteni .spaday, .grid-conteni .spaday:hover, .grid-conteni .relax, .grid-conteni .relax:hover {
   box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
-
-.main .grid-contenedor .pieza1 .botoncito a {
-  width: 100%;
-  height: 90%; }
 
 .slider {
   width: 30%;
@@ -158,48 +148,28 @@
 /*Colores*/
 /*Font Family*/
 /*Extends*/
-.boton a, .boton .enviar button, .main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .fotos, .main h2, .main .grid-content, .main .grid-content .flex-content, .main .grid-content .flex-content .piezasa1 h3, .main .grid-content .flex-content .piezasa1 .boton a, .main .grid-content .flex-content .piezasa1 .boton .enviar button, .main .grid-content .flex-content .piezasa h3, .main .grid-content .flex-content .piezasa .boton a, .main .hero, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza1 .botoncito, .main .grid-contenedor .pieza1 .botoncito a, .main .grid-contenedor .pieza2, .main .grid-contenedor .pieza2 .botoncito, .main .grid-contenedor .pieza2 .botoncito a, .main .grid-contenedor .pieza2 .botoncito a .enviar button, .main .ubi, .grid-conten .boda, .grid-conten .roja, .grid-conten .spaday, .grid-conten .relax, .grid-conten .botoncito a, .grid-conten .botoncito .enviar button {
+.boton a, .boton .enviar button, .fotos, main h2, body main div p {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.main .grid-contenedor .pieza2, .main .ubi {
-  margin: 80%;
-  height: 80%;
-  padding: 0.3125em;
-  margin: 0.3125em; }
-
-.main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza2, .main .grid-contenedor .flexsito {
+main .grid-cont .casamiento, main .grid-cont .casamiento:hover, main .grid-cont .reunion, main .grid-cont .reunion:hover, main .grid-cont .cumpleaños, main .grid-cont .cumpleaños:hover, main .grid-cont .catadevino, main .grid-cont .catadevino:hover, main .grid-content div .piezasa1, main .grid-content div .piezasa1:hover, main .grid-content div .piezasa2, main .grid-content div .piezasa2:hover, body main .piezas .habi1, body main .piezas .habi1:hover, body main .piezas .habi2, body main .piezas .habi2:hover, body main .gastronomica, body main .gastronomica:hover, .grid-conteni .boda, .grid-conteni .boda:hover, .grid-conteni .roja, .grid-conteni .roja:hover, .grid-conteni .spaday, .grid-conteni .spaday:hover, .grid-conteni .relax, .grid-conteni .relax:hover {
   box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
-
-.main .grid-contenedor .pieza1 .botoncito a {
-  width: 100%;
-  height: 90%; }
 
 /*Colores*/
 /*Font Family*/
 /*Extends*/
-.boton a, .boton .enviar button, .main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .fotos, .main h2, .main .grid-content, .main .grid-content .flex-content, .main .grid-content .flex-content .piezasa1 h3, .main .grid-content .flex-content .piezasa1 .boton a, .main .grid-content .flex-content .piezasa1 .boton .enviar button, .main .grid-content .flex-content .piezasa h3, .main .grid-content .flex-content .piezasa .boton a, .main .hero, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza1 .botoncito, .main .grid-contenedor .pieza1 .botoncito a, .main .grid-contenedor .pieza2, .main .grid-contenedor .pieza2 .botoncito, .main .grid-contenedor .pieza2 .botoncito a, .main .grid-contenedor .pieza2 .botoncito a .enviar button, .main .ubi, .grid-conten .boda, .grid-conten .roja, .grid-conten .spaday, .grid-conten .relax, .grid-conten .botoncito a, .grid-conten .botoncito .enviar button {
+.boton a, .boton .enviar button, .fotos, main h2, body main div p {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.main .grid-contenedor .pieza2, .main .ubi {
-  margin: 80%;
-  height: 80%;
-  padding: 0.3125em;
-  margin: 0.3125em; }
-
-.main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza2, .main .grid-contenedor .flexsito {
+main .grid-cont .casamiento, main .grid-cont .casamiento:hover, main .grid-cont .reunion, main .grid-cont .reunion:hover, main .grid-cont .cumpleaños, main .grid-cont .cumpleaños:hover, main .grid-cont .catadevino, main .grid-cont .catadevino:hover, main .grid-content div .piezasa1, main .grid-content div .piezasa1:hover, main .grid-content div .piezasa2, main .grid-content div .piezasa2:hover, body main .piezas .habi1, body main .piezas .habi1:hover, body main .piezas .habi2, body main .piezas .habi2:hover, body main .gastronomica, body main .gastronomica:hover, .grid-conteni .boda, .grid-conteni .boda:hover, .grid-conteni .roja, .grid-conteni .roja:hover, .grid-conteni .spaday, .grid-conteni .spaday:hover, .grid-conteni .relax, .grid-conteni .relax:hover {
   box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
-
-.main .grid-contenedor .pieza1 .botoncito a {
-  width: 100%;
-  height: 90%; }
 
 .slider {
   width: 30%;
@@ -330,25 +300,15 @@
 /*Colores*/
 /*Font Family*/
 /*Extends*/
-.boton a, .boton .enviar button, .main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .fotos, .main h2, .main .grid-content, .main .grid-content .flex-content, .main .grid-content .flex-content .piezasa1 h3, .main .grid-content .flex-content .piezasa1 .boton a, .main .grid-content .flex-content .piezasa1 .boton .enviar button, .main .grid-content .flex-content .piezasa h3, .main .grid-content .flex-content .piezasa .boton a, .main .hero, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza1 .botoncito, .main .grid-contenedor .pieza1 .botoncito a, .main .grid-contenedor .pieza2, .main .grid-contenedor .pieza2 .botoncito, .main .grid-contenedor .pieza2 .botoncito a, .main .grid-contenedor .pieza2 .botoncito a .enviar button, .main .ubi, .grid-conten .boda, .grid-conten .roja, .grid-conten .spaday, .grid-conten .relax, .grid-conten .botoncito a, .grid-conten .botoncito .enviar button {
+.boton a, .boton .enviar button, .fotos, main h2, body main div p {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.main .grid-contenedor .pieza2, .main .ubi {
-  margin: 80%;
-  height: 80%;
-  padding: 0.3125em;
-  margin: 0.3125em; }
-
-.main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza2, .main .grid-contenedor .flexsito {
+main .grid-cont .casamiento, main .grid-cont .casamiento:hover, main .grid-cont .reunion, main .grid-cont .reunion:hover, main .grid-cont .cumpleaños, main .grid-cont .cumpleaños:hover, main .grid-cont .catadevino, main .grid-cont .catadevino:hover, main .grid-content div .piezasa1, main .grid-content div .piezasa1:hover, main .grid-content div .piezasa2, main .grid-content div .piezasa2:hover, body main .piezas .habi1, body main .piezas .habi1:hover, body main .piezas .habi2, body main .piezas .habi2:hover, body main .gastronomica, body main .gastronomica:hover, .grid-conteni .boda, .grid-conteni .boda:hover, .grid-conteni .roja, .grid-conteni .roja:hover, .grid-conteni .spaday, .grid-conteni .spaday:hover, .grid-conteni .relax, .grid-conteni .relax:hover {
   box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
-
-.main .grid-contenedor .pieza1 .botoncito a {
-  width: 100%;
-  height: 90%; }
 
 * {
   margin: 0;
@@ -357,72 +317,118 @@
   outline: 0;
   box-sizing: border-box; }
 
-.main .grid-cont {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "casamiento reunion cumpleaños"; }
-  .main .grid-cont .casamiento {
-    grid-area: casamiento;
-    display: grid;
-    font-family: "Montserrat", sans-serif;
-    display: inline-block;
-    margin: 1.25em;
-    width: 55%;
-    height: 47%; }
-    .main .grid-cont .casamiento img {
-      width: 50%;
-      height: 30%;
-      display: inline-block; }
-  .main .grid-cont .reunion {
-    grid-area: reunion;
-    display: grid;
-    font-family: "Montserrat", sans-serif;
-    display: inline-block;
-    margin: 1.25em;
-    width: 55%;
-    height: 47%; }
-    .main .grid-cont .reunion img {
-      width: 50%;
-      height: 30%;
-      display: inline-block; }
-  .main .grid-cont .cumpleaños {
-    grid-area: cumpleaños;
-    display: grid;
-    font-family: "Montserrat", sans-serif;
-    display: inline-block;
-    margin: 1.25em;
-    width: 55%;
-    height: 47%; }
-    .main .grid-cont .cumpleaños img {
-      width: 50%;
-      height: 30%;
-      display: inline-block; }
+main .grid-cont {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding-top: 25px; }
+  main .grid-cont .casamiento {
+    width: 430px;
+    height: 420px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    padding: 25px; }
+    main .grid-cont .casamiento:hover {
+      transform: translateY(-15px); }
+    main .grid-cont .casamiento img {
+      width: 330px;
+      height: 220px; }
+    main .grid-cont .casamiento h4 {
+      color: #c4b107;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600; }
+    main .grid-cont .casamiento p {
+      font-family: "Montserrat", sans-serif; }
+    main .grid-cont .casamiento .btn a {
+      text-decoration: none;
+      color: black; }
+  main .grid-cont .reunion {
+    width: 430px;
+    height: 420px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    padding: 25px; }
+    main .grid-cont .reunion:hover {
+      transform: translateY(-15px); }
+    main .grid-cont .reunion img {
+      width: 330px;
+      height: 220px; }
+    main .grid-cont .reunion h4 {
+      color: #c4b107;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600; }
+    main .grid-cont .reunion p {
+      font-family: "Montserrat", sans-serif; }
+    main .grid-cont .reunion .btn a {
+      text-decoration: none;
+      color: black; }
+  main .grid-cont .cumpleaños {
+    width: 430px;
+    height: 420px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s; }
+    main .grid-cont .cumpleaños:hover {
+      transform: translateY(-15px); }
+    main .grid-cont .cumpleaños img {
+      width: 330px;
+      height: 220px; }
+    main .grid-cont .cumpleaños h4 {
+      color: #c4b107;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600; }
+    main .grid-cont .cumpleaños p {
+      font-family: "Montserrat", sans-serif; }
+    main .grid-cont .cumpleaños .btn a {
+      text-decoration: none;
+      color: black; }
+  main .grid-cont .catadevino {
+    width: 430px;
+    height: 420px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s; }
+    main .grid-cont .catadevino:hover {
+      transform: translateY(-15px); }
+    main .grid-cont .catadevino img {
+      width: 330px;
+      height: 220px; }
+    main .grid-cont .catadevino h4 {
+      color: #c4b107;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600; }
+    main .grid-cont .catadevino p {
+      font-family: "Montserrat", sans-serif; }
+    main .grid-cont .catadevino .btn a {
+      text-decoration: none;
+      color: black; }
 
 /*Colores*/
 /*Font Family*/
 /*Extends*/
-.boton a, .boton .enviar button, .main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .fotos, .main h2, .main .grid-content, .main .grid-content .flex-content, .main .grid-content .flex-content .piezasa1 h3, .main .grid-content .flex-content .piezasa1 .boton a, .main .grid-content .flex-content .piezasa1 .boton .enviar button, .main .grid-content .flex-content .piezasa h3, .main .grid-content .flex-content .piezasa .boton a, .main .hero, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza1 .botoncito, .main .grid-contenedor .pieza1 .botoncito a, .main .grid-contenedor .pieza2, .main .grid-contenedor .pieza2 .botoncito, .main .grid-contenedor .pieza2 .botoncito a, .main .grid-contenedor .pieza2 .botoncito a .enviar button, .main .ubi, .grid-conten .boda, .grid-conten .roja, .grid-conten .spaday, .grid-conten .relax, .grid-conten .botoncito a, .grid-conten .botoncito .enviar button {
+.boton a, .boton .enviar button, .fotos, main h2, body main div p {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.main .grid-contenedor .pieza2, .main .ubi {
-  margin: 80%;
-  height: 80%;
-  padding: 0.3125em;
-  margin: 0.3125em; }
-
-.main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza2, .main .grid-contenedor .flexsito {
+main .grid-cont .casamiento, main .grid-cont .casamiento:hover, main .grid-cont .reunion, main .grid-cont .reunion:hover, main .grid-cont .cumpleaños, main .grid-cont .cumpleaños:hover, main .grid-cont .catadevino, main .grid-cont .catadevino:hover, main .grid-content div .piezasa1, main .grid-content div .piezasa1:hover, main .grid-content div .piezasa2, main .grid-content div .piezasa2:hover, body main .piezas .habi1, body main .piezas .habi1:hover, body main .piezas .habi2, body main .piezas .habi2:hover, body main .gastronomica, body main .gastronomica:hover, .grid-conteni .boda, .grid-conteni .boda:hover, .grid-conteni .roja, .grid-conteni .roja:hover, .grid-conteni .spaday, .grid-conteni .spaday:hover, .grid-conteni .relax, .grid-conteni .relax:hover {
   box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
-
-.main .grid-contenedor .pieza1 .botoncito a {
-  width: 100%;
-  height: 90%; }
 
 .slider {
   width: 30%;
@@ -553,25 +559,15 @@
 /*Colores*/
 /*Font Family*/
 /*Extends*/
-.boton a, .boton .enviar button, .main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .fotos, .main h2, .main .grid-content, .main .grid-content .flex-content, .main .grid-content .flex-content .piezasa1 h3, .main .grid-content .flex-content .piezasa1 .boton a, .main .grid-content .flex-content .piezasa1 .boton .enviar button, .main .grid-content .flex-content .piezasa h3, .main .grid-content .flex-content .piezasa .boton a, .main .hero, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza1 .botoncito, .main .grid-contenedor .pieza1 .botoncito a, .main .grid-contenedor .pieza2, .main .grid-contenedor .pieza2 .botoncito, .main .grid-contenedor .pieza2 .botoncito a, .main .grid-contenedor .pieza2 .botoncito a .enviar button, .main .ubi, .grid-conten .boda, .grid-conten .roja, .grid-conten .spaday, .grid-conten .relax, .grid-conten .botoncito a, .grid-conten .botoncito .enviar button {
+.boton a, .boton .enviar button, .fotos, main h2, body main div p {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.main .grid-contenedor .pieza2, .main .ubi {
-  margin: 80%;
-  height: 80%;
-  padding: 0.3125em;
-  margin: 0.3125em; }
-
-.main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza2, .main .grid-contenedor .flexsito {
+main .grid-cont .casamiento, main .grid-cont .casamiento:hover, main .grid-cont .reunion, main .grid-cont .reunion:hover, main .grid-cont .cumpleaños, main .grid-cont .cumpleaños:hover, main .grid-cont .catadevino, main .grid-cont .catadevino:hover, main .grid-content div .piezasa1, main .grid-content div .piezasa1:hover, main .grid-content div .piezasa2, main .grid-content div .piezasa2:hover, body main .piezas .habi1, body main .piezas .habi1:hover, body main .piezas .habi2, body main .piezas .habi2:hover, body main .gastronomica, body main .gastronomica:hover, .grid-conteni .boda, .grid-conteni .boda:hover, .grid-conteni .roja, .grid-conteni .roja:hover, .grid-conteni .spaday, .grid-conteni .spaday:hover, .grid-conteni .relax, .grid-conteni .relax:hover {
   box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
-
-.main .grid-contenedor .pieza1 .botoncito a {
-  width: 100%;
-  height: 90%; }
 
 * {
   margin: 0;
@@ -582,36 +578,29 @@
 
 footer {
   width: 100%;
-  height: 30%; }
+  height: 100%; }
 
 .fotos {
   background-color: #1F1F24;
   position: sticky;
   top: 0;
-  padding: 0.9375em; }
+  padding: 20px; }
+  .fotos a {
+    width: 10%;
+    height: 10%; }
 
 /*Colores*/
 /*Font Family*/
 /*Extends*/
-.boton a, .boton .enviar button, .main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .fotos, .main h2, .main .grid-content, .main .grid-content .flex-content, .main .grid-content .flex-content .piezasa1 h3, .main .grid-content .flex-content .piezasa1 .boton a, .main .grid-content .flex-content .piezasa1 .boton .enviar button, .main .grid-content .flex-content .piezasa h3, .main .grid-content .flex-content .piezasa .boton a, .main .hero, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza1 .botoncito, .main .grid-contenedor .pieza1 .botoncito a, .main .grid-contenedor .pieza2, .main .grid-contenedor .pieza2 .botoncito, .main .grid-contenedor .pieza2 .botoncito a, .main .grid-contenedor .pieza2 .botoncito a .enviar button, .main .ubi, .grid-conten .boda, .grid-conten .roja, .grid-conten .spaday, .grid-conten .relax, .grid-conten .botoncito a, .grid-conten .botoncito .enviar button {
+.boton a, .boton .enviar button, .fotos, main h2, body main div p {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.main .grid-contenedor .pieza2, .main .ubi {
-  margin: 80%;
-  height: 80%;
-  padding: 0.3125em;
-  margin: 0.3125em; }
-
-.main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza2, .main .grid-contenedor .flexsito {
+main .grid-cont .casamiento, main .grid-cont .casamiento:hover, main .grid-cont .reunion, main .grid-cont .reunion:hover, main .grid-cont .cumpleaños, main .grid-cont .cumpleaños:hover, main .grid-cont .catadevino, main .grid-cont .catadevino:hover, main .grid-content div .piezasa1, main .grid-content div .piezasa1:hover, main .grid-content div .piezasa2, main .grid-content div .piezasa2:hover, body main .piezas .habi1, body main .piezas .habi1:hover, body main .piezas .habi2, body main .piezas .habi2:hover, body main .gastronomica, body main .gastronomica:hover, .grid-conteni .boda, .grid-conteni .boda:hover, .grid-conteni .roja, .grid-conteni .roja:hover, .grid-conteni .spaday, .grid-conteni .spaday:hover, .grid-conteni .relax, .grid-conteni .relax:hover {
   box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
-
-.main .grid-contenedor .pieza1 .botoncito a {
-  width: 100%;
-  height: 90%; }
 
 * {
   margin: 0;
@@ -623,25 +612,15 @@ footer {
 /*Colores*/
 /*Font Family*/
 /*Extends*/
-.boton a, .boton .enviar button, .main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .fotos, .main h2, .main .grid-content, .main .grid-content .flex-content, .main .grid-content .flex-content .piezasa1 h3, .main .grid-content .flex-content .piezasa1 .boton a, .main .grid-content .flex-content .piezasa1 .boton .enviar button, .main .grid-content .flex-content .piezasa h3, .main .grid-content .flex-content .piezasa .boton a, .main .hero, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza1 .botoncito, .main .grid-contenedor .pieza1 .botoncito a, .main .grid-contenedor .pieza2, .main .grid-contenedor .pieza2 .botoncito, .main .grid-contenedor .pieza2 .botoncito a, .main .grid-contenedor .pieza2 .botoncito a .enviar button, .main .ubi, .grid-conten .boda, .grid-conten .roja, .grid-conten .spaday, .grid-conten .relax, .grid-conten .botoncito a, .grid-conten .botoncito .enviar button {
+.boton a, .boton .enviar button, .fotos, main h2, body main div p {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.main .grid-contenedor .pieza2, .main .ubi {
-  margin: 80%;
-  height: 80%;
-  padding: 0.3125em;
-  margin: 0.3125em; }
-
-.main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza2, .main .grid-contenedor .flexsito {
+main .grid-cont .casamiento, main .grid-cont .casamiento:hover, main .grid-cont .reunion, main .grid-cont .reunion:hover, main .grid-cont .cumpleaños, main .grid-cont .cumpleaños:hover, main .grid-cont .catadevino, main .grid-cont .catadevino:hover, main .grid-content div .piezasa1, main .grid-content div .piezasa1:hover, main .grid-content div .piezasa2, main .grid-content div .piezasa2:hover, body main .piezas .habi1, body main .piezas .habi1:hover, body main .piezas .habi2, body main .piezas .habi2:hover, body main .gastronomica, body main .gastronomica:hover, .grid-conteni .boda, .grid-conteni .boda:hover, .grid-conteni .roja, .grid-conteni .roja:hover, .grid-conteni .spaday, .grid-conteni .spaday:hover, .grid-conteni .relax, .grid-conteni .relax:hover {
   box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
-
-.main .grid-contenedor .pieza1 .botoncito a {
-  width: 100%;
-  height: 90%; }
 
 .slider {
   width: 30%;
@@ -769,720 +748,652 @@ footer {
         left: 0;
         transition: .3s ease-in-out all; }
 
-.main h2 {
+main h2 {
   font-family: "Montserrat", sans-serif;
   color: #c4b107;
-  font-size: 20px;
-  margin: 3.125em; }
+  font-size: 30px;
+  margin: 20px; }
 
-.main .grid-content {
-  column-gap: 0.9375em;
-  row-gap: 0.625em; }
-  .main .grid-content .flex-content {
-    width: 100%;
-    height: 50%;
-    margin: 1.25em;
-    padding: 1.25em;
-    display: inline-block; }
-    .main .grid-content .flex-content .piezasa1 {
-      display: grid;
-      font-family: "Montserrat", sans-serif;
-      box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-      -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-      -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-      margin: 1.25em;
-      width: 95%;
-      height: 60%;
-      text-align: center; }
-      .main .grid-content .flex-content .piezasa1 .slider2 {
-        width: 95%;
-        margin: auto;
-        overflow: hidden; }
-        .main .grid-content .flex-content .piezasa1 .slider2 ul {
-          display: flex;
-          padding: 0;
-          width: 200%;
-          animation: cambio 20s infinite alternate;
-          animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
-          .main .grid-content .flex-content .piezasa1 .slider2 ul li {
-            width: 400%;
-            list-style: none; }
-            .main .grid-content .flex-content .piezasa1 .slider2 ul li img {
-              width: 90%;
-              height: 50%; }
-      .main .grid-content .flex-content .piezasa1 h3 {
-        font-family: "Montserrat", sans-serif;
-        color: #c4b107; }
-      .main .grid-content .flex-content .piezasa1 p {
-        margin-bottom: 1.25em;
-        font-family: "Montserrat", sans-serif;
-        text-align: center; }
-      .main .grid-content .flex-content .piezasa1 .boton {
-        width: 85%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2.5em;
-        margin: 1.875em; }
-        .main .grid-content .flex-content .piezasa1 .boton a {
-          text-decoration: none;
-          display: inline-flex;
-          width: 90%;
-          height: 20%;
-          background-color: #1F1F24;
-          color: ivory;
-          font-family: "Montserrat", sans-serif;
-          font-size: 15px;
-          border: none;
-          cursor: pointer;
-          text-transform: uppercase;
-          transition: .3s ease all;
-          border-radius: 0.3125em;
-          position: relative;
-          overflow: hidden; }
-          .main .grid-content .flex-content .piezasa1 .boton a span {
-            position: relative;
-            z-index: 2;
-            transition: .3s ease all; }
-        .main .grid-content .flex-content .piezasa1 .boton:after {
-          content: "";
-          width: 90%;
-          height: 20%;
-          background: #c4b107;
-          position: absolute;
-          z-index: 1;
-          top: -5rem;
-          left: 0;
-          transition: .3s ease-in-out all; }
-        .main .grid-content .flex-content .piezasa1 .boton .enviar {
-          width: 85%;
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 2.5rem; }
-          .main .grid-content .flex-content .piezasa1 .boton .enviar button {
-            text-decoration: none;
-            display: inline-flex;
-            width: 90%;
-            height: 20%;
-            background-color: #1F1F24;
-            color: ivory;
-            font-family: "Montserrat", sans-serif;
-            font-size: 15px;
-            border: none;
-            cursor: pointer;
-            text-transform: uppercase;
-            transition: .3s ease all;
-            border-radius: 0.3125em;
-            position: relative;
-            overflow: hidden; }
-            .main .grid-content .flex-content .piezasa1 .boton .enviar button input {
-              position: relative;
-              z-index: 2;
-              transition: .3s ease all;
-              font-family: "Montserrat", sans-serif;
-              background-color: #1F1F24; }
-            .main .grid-content .flex-content .piezasa1 .boton .enviar button:after {
-              content: "";
-              width: 90%;
-              height: 20%;
-              background: #c4b107;
-              position: absolute;
-              z-index: 1;
-              top: -5em;
-              left: 0;
-              transition: .3s ease-in-out all; }
-    .main .grid-content .flex-content .piezasa {
-      display: grid;
-      font-family: "Montserrat", sans-serif;
-      box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-      -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-      -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-      margin: 1.25em;
-      width: 95%;
-      height: 60%;
-      text-align: center; }
-      .main .grid-content .flex-content .piezasa .slider {
-        width: 95%;
-        height: 60%;
-        margin: auto;
-        overflow: hidden; }
-        .main .grid-content .flex-content .piezasa .slider ul {
-          display: flex;
-          padding: 0;
-          width: 200%;
-          animation: cambio 20s infinite alternate;
-          animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
-          .main .grid-content .flex-content .piezasa .slider ul li {
-            list-style: none; }
-            .main .grid-content .flex-content .piezasa .slider ul li img {
-              width: 95%;
-              height: 10%; }
-      .main .grid-content .flex-content .piezasa h3 {
-        font-family: "Montserrat", sans-serif;
-        color: #c4b107; }
-      .main .grid-content .flex-content .piezasa p {
-        margin-bottom: 1.25em;
-        font-family: "Montserrat", sans-serif;
-        text-align: center; }
-      .main .grid-content .flex-content .piezasa .boton {
-        width: 85%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 40px;
-        margin: 30px; }
-        .main .grid-content .flex-content .piezasa .boton a {
-          text-decoration: none;
-          display: inline-flex;
-          width: 90%;
-          height: 20%;
-          background-color: #1F1F24;
-          color: ivory;
-          font-family: "Montserrat", sans-serif;
-          font-size: 15px;
-          border: none;
-          cursor: pointer;
-          text-transform: uppercase;
-          transition: .3s ease all;
-          border-radius: 0.3125em;
-          position: relative;
-          overflow: hidden; }
-          .main .grid-content .flex-content .piezasa .boton a span {
-            position: relative;
-            z-index: 2;
-            transition: .3s ease all; }
-        .main .grid-content .flex-content .piezasa .boton:after {
-          content: "";
-          width: 90%;
-          height: 20%;
-          background: #c4b107;
-          position: absolute;
-          z-index: 1;
-          top: -5em;
-          left: 0;
-          transition: .3s ease-in-out all; }
-        .main .grid-content .flex-content .piezasa .boton .enviar {
-          width: 85%;
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 2.5em; }
-          .main .grid-content .flex-content .piezasa .boton .enviar button {
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 90%;
-            height: 20%;
-            background-color: #1F1F24;
-            color: ivory;
-            font-family: "Montserrat", sans-serif;
-            font-size: 15px;
-            border: none;
-            cursor: pointer;
-            text-transform: uppercase;
-            transition: .3s ease all;
-            border-radius: 0.3125em;
-            position: relative;
-            overflow: hidden; }
-            .main .grid-content .flex-content .piezasa .boton .enviar button input {
-              position: relative;
-              z-index: 2;
-              transition: .3s ease all;
-              font-family: "Montserrat", sans-serif;
-              background-color: #1F1F24; }
-            .main .grid-content .flex-content .piezasa .boton .enviar button:after {
-              content: "";
-              width: 90%;
-              height: 20%;
-              background: #c4b107;
-              position: absolute;
-              z-index: 1;
-              top: -5em;
-              left: 0;
-              transition: .3s ease-in-out all; }
-
-/*Colores*/
-/*Font Family*/
-/*Extends*/
-.boton a, .boton .enviar button, .main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .fotos, .main h2, .main .grid-content, .main .grid-content .flex-content, .main .grid-content .flex-content .piezasa1 h3, .main .grid-content .flex-content .piezasa1 .boton a, .main .grid-content .flex-content .piezasa1 .boton .enviar button, .main .grid-content .flex-content .piezasa h3, .main .grid-content .flex-content .piezasa .boton a, .main .hero, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza1 .botoncito, .main .grid-contenedor .pieza1 .botoncito a, .main .grid-contenedor .pieza2, .main .grid-contenedor .pieza2 .botoncito, .main .grid-contenedor .pieza2 .botoncito a, .main .grid-contenedor .pieza2 .botoncito a .enviar button, .main .ubi, .grid-conten .boda, .grid-conten .roja, .grid-conten .spaday, .grid-conten .relax, .grid-conten .botoncito a, .grid-conten .botoncito .enviar button {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.main .grid-contenedor .pieza2, .main .ubi {
-  margin: 80%;
-  height: 80%;
-  padding: 0.3125em;
-  margin: 0.3125em; }
-
-.main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza2, .main .grid-contenedor .flexsito {
-  box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
-
-.main .grid-contenedor .pieza1 .botoncito a {
+main .grid-content {
   width: 100%;
-  height: 90%; }
-
-.header {
-  background-color: #1F1F24;
-  position: sticky;
-  top: 0;
-  padding: 15px;
+  max-width: 1200px;
+  height: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  .header nav ul {
-    list-style-type: none;
-    font-size: 25px;
-    font-weight: 150; }
-    .header nav ul li {
-      display: inline-block; }
-      .header nav ul li a {
-        text-decoration: none;
-        color: white;
-        display: flex;
-        justify-content: flex-end;
-        text-transform: uppercase;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 25px; }
-
-/*Colores*/
-/*Font Family*/
-/*Extends*/
-.boton a, .boton .enviar button, .main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .fotos, .main h2, .main .grid-content, .main .grid-content .flex-content, .main .grid-content .flex-content .piezasa1 h3, .main .grid-content .flex-content .piezasa1 .boton a, .main .grid-content .flex-content .piezasa1 .boton .enviar button, .main .grid-content .flex-content .piezasa h3, .main .grid-content .flex-content .piezasa .boton a, .main .hero, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza1 .botoncito, .main .grid-contenedor .pieza1 .botoncito a, .main .grid-contenedor .pieza2, .main .grid-contenedor .pieza2 .botoncito, .main .grid-contenedor .pieza2 .botoncito a, .main .grid-contenedor .pieza2 .botoncito a .enviar button, .main .ubi, .grid-conten .boda, .grid-conten .roja, .grid-conten .spaday, .grid-conten .relax, .grid-conten .botoncito a, .grid-conten .botoncito .enviar button {
-  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center; }
-
-.main .grid-contenedor .pieza2, .main .ubi {
-  margin: 80%;
-  height: 80%;
-  padding: 0.3125em;
-  margin: 0.3125em; }
-
-.main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza2, .main .grid-contenedor .flexsito {
-  box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
-
-.main .grid-contenedor .pieza1 .botoncito a {
-  width: 100%;
-  height: 90%; }
-
-.slider {
-  width: 30%;
-  margin: auto;
-  overflow: hidden; }
-  .slider ul {
-    display: flex;
-    padding: 0;
-    width: 90%;
-    animation: cambio 20s infinite alternate;
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
-    .slider ul li {
-      width: 30%;
-      list-style: none; }
-      .slider ul li img {
-        width: 335%; }
-
-@keyframes cambio {
-  0% {
-    margin-left: 0; }
-  15% {
-    margin-left: 0; }
-  20% {
-    margin-left: -100%; }
-  40% {
-    margin-left: -100%; } }
-
-.slider2 {
-  width: 95%;
-  margin: auto;
-  overflow: hidden; }
-  .slider2 ul {
-    display: flex;
-    padding: 0;
-    width: 200%;
-    animation: cambio 20s infinite alternate;
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
-    .slider2 ul li {
-      width: 400%;
-      list-style: none; }
-      .slider2 ul li img {
-        width: 80%; }
-
-@keyframes cambio {
-  0% {
-    margin-left: 0; }
-  15% {
-    margin-left: 0; }
-  20% {
-    margin-left: -100%; }
-  40% {
-    margin-left: -100%; } }
-
-.boton {
-  width: 85%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.5em;
-  margin: 1.875em; }
-  .boton a {
-    text-decoration: none;
-    display: inline-flex;
-    width: 90%;
-    height: 20%;
-    background-color: #1F1F24;
-    color: ivory;
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px;
-    border: none;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: .3s ease all;
-    border-radius: 0.3125em;
-    position: relative;
-    overflow: hidden; }
-    .boton a span {
-      position: relative;
-      z-index: 2;
-      transition: .3s ease all; }
-  .boton:after {
-    content: "";
-    width: 90%;
-    height: 20%;
-    background: #c4b107;
-    position: absolute;
-    z-index: 1;
-    top: -5em;
-    left: 0;
-    transition: .3s ease-in-out all; }
-  .boton .enviar {
-    width: 85%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5em; }
-    .boton .enviar button {
-      text-decoration: none;
-      display: inline-flex;
-      width: 90%;
-      height: 20%;
-      background-color: #1F1F24;
-      color: ivory;
-      font-family: "Montserrat", sans-serif;
-      font-size: 0.9375em;
-      border: none;
-      cursor: pointer;
-      text-transform: uppercase;
-      transition: .3s ease all;
-      border-radius: 5px;
-      position: relative;
+  margin: auto; }
+  main .grid-content div .piezasa1 {
+    width: 630px;
+    max-width: 1200px;
+    height: 420px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    padding: 25px; }
+    main .grid-content div .piezasa1:hover {
+      transform: translateY(-15px); }
+    main .grid-content div .piezasa1 .slider2 {
+      width: 40%;
+      margin: auto;
       overflow: hidden; }
-      .boton .enviar button input {
-        position: relative;
-        z-index: 2;
-        transition: .3s ease all;
-        font-family: "Montserrat", sans-serif;
-        background-color: #1F1F24; }
-      .boton .enviar button:after {
-        content: "";
-        width: 90%;
-        height: 20%;
-        background: #c4b107;
-        position: absolute;
-        z-index: 1;
-        top: -5em;
-        left: 0;
-        transition: .3s ease-in-out all; }
-
-/*Colores*/
-/*Font Family*/
-/*Extends*/
-.boton a, .boton .enviar button, .main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .fotos, .main h2, .main .grid-content, .main .grid-content .flex-content, .main .grid-content .flex-content .piezasa1 h3, .main .grid-content .flex-content .piezasa1 .boton a, .main .grid-content .flex-content .piezasa1 .boton .enviar button, .main .grid-content .flex-content .piezasa h3, .main .grid-content .flex-content .piezasa .boton a, .main .hero, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza1 .botoncito, .main .grid-contenedor .pieza1 .botoncito a, .main .grid-contenedor .pieza2, .main .grid-contenedor .pieza2 .botoncito, .main .grid-contenedor .pieza2 .botoncito a, .main .grid-contenedor .pieza2 .botoncito a .enviar button, .main .ubi, .grid-conten .boda, .grid-conten .roja, .grid-conten .spaday, .grid-conten .relax, .grid-conten .botoncito a, .grid-conten .botoncito .enviar button {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.main .grid-contenedor .pieza2, .main .ubi {
-  margin: 80%;
-  height: 80%;
-  padding: 0.3125em;
-  margin: 0.3125em; }
-
-.main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza2, .main .grid-contenedor .flexsito {
-  box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
-
-.main .grid-contenedor .pieza1 .botoncito a {
-  width: 100%;
-  height: 90%; }
-
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  box-sizing: border-box; }
-
-.main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-template-areas: "hero hero" "gridcontenedor gridcontenedor" "encontranos encontranos";
-  height: 50%; }
-  .main .hero {
-    grid-area: hero;
-    background-image: url("../img/fondooo.jpg");
-    width: 100%;
-    height: 35%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    font-family: "Montserrat", sans-serif;
-    text-decoration: none; }
-    .main .hero h3 {
-      color: #c4b107; }
-  .main .grid-contenedor {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas: "pieza1 pieza2" "seccion-gastro seccion-gastro";
-    grid-area: gridcontenedor; }
-    .main .grid-contenedor .pieza1 {
-      display: grid;
-      grid-area: pieza1;
-      font-family: "Montserrat", sans-serif;
-      display: inline-block;
-      width: 80%;
-      height: 80%;
-      margin: 1.25em;
-      padding: 0.3125em; }
-      .main .grid-contenedor .pieza1 img {
-        width: 90%;
-        height: 60%;
-        display: inline-block; }
-      .main .grid-contenedor .pieza1 h3 {
-        color: #c4b107;
-        background-image: none;
-        font-size: 30px;
-        text-align: center;
-        display: inline-block; }
-      .main .grid-contenedor .pieza1 p {
-        margin-bottom: 1.25em;
-        font-family: "Montserrat", sans-serif;
-        text-align: center; }
-      .main .grid-contenedor .pieza1 .botoncito {
-        width: 50%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2.5em;
-        margin: 1.875em;
-        background-color: #1F1F24; }
-        .main .grid-contenedor .pieza1 .botoncito a {
-          text-decoration: none;
-          display: inline-flex;
-          background-color: #1F1F24;
-          color: ivory;
-          font-family: "Montserrat", sans-serif;
-          font-size: 15px;
-          border: none;
-          cursor: pointer;
-          text-transform: uppercase;
-          transition: .3s ease all;
-          border-radius: 0.3125em;
-          position: relative;
-          overflow: hidden; }
-          .main .grid-contenedor .pieza1 .botoncito a span {
-            position: relative;
-            z-index: 2;
-            transition: .3s ease all; }
-          .main .grid-contenedor .pieza1 .botoncito a:after {
-            content: "";
-            width: 40%;
-            height: 20%;
-            background: #c4b107;
-            position: absolute;
-            z-index: 1;
-            top: -5em;
-            left: 0;
-            transition: .3s ease-in-out all; }
-            .main .grid-contenedor .pieza1 .botoncito a:after:hover {
-              top: 0; }
-    .main .grid-contenedor .pieza2 {
-      display: inline-block;
-      display: grid;
-      grid-area: pieza2;
-      font-family: "Montserrat", sans-serif; }
-      .main .grid-contenedor .pieza2 img {
-        width: 90%;
-        height: 60%;
-        display: inline-block; }
-      .main .grid-contenedor .pieza2 h3 {
-        color: #c4b107;
-        background-image: none;
-        font-size: 30px;
-        text-align: center;
-        display: inline-block;
-        margin: 0.3125em; }
-      .main .grid-contenedor .pieza2 p {
-        margin-bottom: 0.3125em;
-        font-family: "Montserrat", sans-serif;
-        text-align: center; }
-      .main .grid-contenedor .pieza2 .botoncito {
-        width: 50%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2.5em;
-        margin: 1.875em;
-        background-color: #1F1F24; }
-        .main .grid-contenedor .pieza2 .botoncito a {
-          text-decoration: none;
-          display: inline-flex;
-          width: 40.6%;
-          height: 2%;
-          background-color: #1F1F24;
-          color: ivory;
-          font-family: "Montserrat", sans-serif;
-          font-size: 15px;
-          border: none;
-          cursor: pointer;
-          text-transform: uppercase;
-          transition: .3s ease all;
-          border-radius: 0.3125em;
-          position: relative;
-          overflow: hidden; }
-          .main .grid-contenedor .pieza2 .botoncito a span {
-            position: relative;
-            z-index: 2;
-            transition: .3s ease all; }
-          .main .grid-contenedor .pieza2 .botoncito a:after {
-            /*ver si no es al revés, hover padre de after*/
-            content: "";
-            width: 40.6%;
-            height: 40%;
-            background: #c4b107;
-            position: absolute;
-            z-index: 1;
-            top: -5em;
-            left: 0;
-            transition: .3s ease-in-out all; }
-            .main .grid-contenedor .pieza2 .botoncito a:after:hover {
-              top: 0; }
-          .main .grid-contenedor .pieza2 .botoncito a .enviar {
-            width: 85%;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2.5em; }
-            .main .grid-contenedor .pieza2 .botoncito a .enviar button {
-              text-decoration: none;
-              display: inline-flex;
-              width: 60%;
-              height: 2%;
-              background-color: #1F1F24;
-              color: ivory;
-              font-family: "Montserrat", sans-serif;
-              font-size: 15px;
-              border: none;
-              cursor: pointer;
-              text-transform: uppercase;
-              transition: .3s ease all;
-              border-radius: 0.3125rem;
-              position: relative;
-              overflow: hidden; }
-              .main .grid-contenedor .pieza2 .botoncito a .enviar button input {
-                color: aliceblue;
-                position: relative;
-                z-index: 2;
-                transition: .3s ease all;
-                background-color: #1F1F24;
-                position: relative;
-                z-index: 2;
-                transition: .3s ease all;
-                font-family: "Montserrat", sans-serif; }
-            .main .grid-contenedor .pieza2 .botoncito a .enviarhover:after {
-              content: "";
-              width: 60%;
-              height: 2%;
-              background: #c4b107;
-              position: absolute;
-              z-index: 1;
-              top: -5em;
-              left: 0;
-              transition: .3s ease-in-out all; }
-    .main .grid-contenedor .flexsito {
-      display: grid;
-      grid-area: seccion-gastro;
-      display: flex;
-      display: inline-flex;
-      width: 95%;
-      height: 45%;
-      margin: 0.625em;
-      font-family: "Montserrat", sans-serif; }
-      .main .grid-contenedor .flexsito .cocina {
+      main .grid-content div .piezasa1 .slider2 ul {
         display: flex;
-        justify-content: flex-end;
-        text-align: left;
-        margin: 0.9375em;
-        display: table; }
-        .main .grid-contenedor .flexsito .cocina h2 {
-          display: flex;
-          color: #c4b107;
-          background-image: none;
-          font-size: 20px;
-          font-family: "Montserrat", sans-serif;
-          text-align: justify; }
-        .main .grid-contenedor .flexsito .cocina p {
-          margin: 0.3125em;
-          display: table-cell;
-          font-family: "Montserrat", sans-serif;
-          margin: 0;
-          padding: 0 1rem;
-          vertical-align: middle; }
-        .main .grid-contenedor .flexsito .cocina img {
-          display: inline-block;
-          width: 80%;
-          height: 50%;
-          display: flex;
-          justify-content: flex-end; }
-  .main .ubi {
-    font-family: "Montserrat", sans-serif;
-    display: inline-block;
-    background-color: aliceblue;
-    display: grid;
-    grid-area: encontranos; }
-    .main .ubi h4 {
+        padding: 0;
+        width: 200%;
+        animation: cambio 20s infinite alternate;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
+        main .grid-content div .piezasa1 .slider2 ul li {
+          width: 400%;
+          list-style: none; }
+          main .grid-content div .piezasa1 .slider2 ul li img {
+            width: 330px;
+            height: 220px; }
+    main .grid-content div .piezasa1 h3 {
       color: #c4b107;
       font-family: "Montserrat", sans-serif;
-      font-size: 20px; }
-    .main .ubi iframe {
-      width: 50%;
+      font-weight: 600; }
+    main .grid-content div .piezasa1 p {
+      font-family: "Montserrat", sans-serif; }
+  main .grid-content div .piezasa2 {
+    width: 630px;
+    height: 420px;
+    max-width: 1200px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    padding: 25px; }
+    main .grid-content div .piezasa2:hover {
+      transform: translateY(-15px); }
+    main .grid-content div .piezasa2 .slider2 {
+      width: 40%;
+      margin: auto;
+      overflow: hidden; }
+      main .grid-content div .piezasa2 .slider2 ul {
+        display: flex;
+        padding: 0;
+        width: 630px;
+        animation: cambio 20s infinite alternate;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
+        main .grid-content div .piezasa2 .slider2 ul li {
+          width: 400%;
+          list-style: none; }
+          main .grid-content div .piezasa2 .slider2 ul li img {
+            width: 330px;
+            height: 220px; }
+    main .grid-content div .piezasa2 h3 {
+      color: #c4b107;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600; }
+    main .grid-content div .piezasa2 p {
+      font-family: "Montserrat", sans-serif; }
+
+/*Colores*/
+/*Font Family*/
+/*Extends*/
+.boton a, .boton .enviar button, .fotos, main h2, body main div p {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main .grid-cont .casamiento, main .grid-cont .casamiento:hover, main .grid-cont .reunion, main .grid-cont .reunion:hover, main .grid-cont .cumpleaños, main .grid-cont .cumpleaños:hover, main .grid-cont .catadevino, main .grid-cont .catadevino:hover, main .grid-content div .piezasa1, main .grid-content div .piezasa1:hover, main .grid-content div .piezasa2, main .grid-content div .piezasa2:hover, body main .piezas .habi1, body main .piezas .habi1:hover, body main .piezas .habi2, body main .piezas .habi2:hover, body main .gastronomica, body main .gastronomica:hover, .grid-conteni .boda, .grid-conteni .boda:hover, .grid-conteni .roja, .grid-conteni .roja:hover, .grid-conteni .spaday, .grid-conteni .spaday:hover, .grid-conteni .relax, .grid-conteni .relax:hover {
+  box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
+
+/*Colores*/
+/*Font Family*/
+/*Extends*/
+.boton a, .boton .enviar button, .fotos, main h2, body main div p {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main .grid-cont .casamiento, main .grid-cont .casamiento:hover, main .grid-cont .reunion, main .grid-cont .reunion:hover, main .grid-cont .cumpleaños, main .grid-cont .cumpleaños:hover, main .grid-cont .catadevino, main .grid-cont .catadevino:hover, main .grid-content div .piezasa1, main .grid-content div .piezasa1:hover, main .grid-content div .piezasa2, main .grid-content div .piezasa2:hover, body main .piezas .habi1, body main .piezas .habi1:hover, body main .piezas .habi2, body main .piezas .habi2:hover, body main .gastronomica, body main .gastronomica:hover, .grid-conteni .boda, .grid-conteni .boda:hover, .grid-conteni .roja, .grid-conteni .roja:hover, .grid-conteni .spaday, .grid-conteni .spaday:hover, .grid-conteni .relax, .grid-conteni .relax:hover {
+  box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
+
+.slider {
+  width: 30%;
+  margin: auto;
+  overflow: hidden; }
+  .slider ul {
+    display: flex;
+    padding: 0;
+    width: 90%;
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
+    .slider ul li {
+      width: 30%;
+      list-style: none; }
+      .slider ul li img {
+        width: 335%; }
+
+@keyframes cambio {
+  0% {
+    margin-left: 0; }
+  15% {
+    margin-left: 0; }
+  20% {
+    margin-left: -100%; }
+  40% {
+    margin-left: -100%; } }
+
+.slider2 {
+  width: 95%;
+  margin: auto;
+  overflow: hidden; }
+  .slider2 ul {
+    display: flex;
+    padding: 0;
+    width: 200%;
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
+    .slider2 ul li {
+      width: 400%;
+      list-style: none; }
+      .slider2 ul li img {
+        width: 80%; }
+
+@keyframes cambio {
+  0% {
+    margin-left: 0; }
+  15% {
+    margin-left: 0; }
+  20% {
+    margin-left: -100%; }
+  40% {
+    margin-left: -100%; } }
+
+.boton {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5em;
+  margin: 1.875em; }
+  .boton a {
+    text-decoration: none;
+    display: inline-flex;
+    width: 90%;
+    height: 20%;
+    background-color: #1F1F24;
+    color: ivory;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 0.3125em;
+    position: relative;
+    overflow: hidden; }
+    .boton a span {
+      position: relative;
+      z-index: 2;
+      transition: .3s ease all; }
+  .boton:after {
+    content: "";
+    width: 90%;
+    height: 20%;
+    background: #c4b107;
+    position: absolute;
+    z-index: 1;
+    top: -5em;
+    left: 0;
+    transition: .3s ease-in-out all; }
+  .boton .enviar {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5em; }
+    .boton .enviar button {
+      text-decoration: none;
+      display: inline-flex;
+      width: 90%;
+      height: 20%;
+      background-color: #1F1F24;
+      color: ivory;
+      font-family: "Montserrat", sans-serif;
+      font-size: 0.9375em;
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: .3s ease all;
+      border-radius: 5px;
+      position: relative;
+      overflow: hidden; }
+      .boton .enviar button input {
+        position: relative;
+        z-index: 2;
+        transition: .3s ease all;
+        font-family: "Montserrat", sans-serif;
+        background-color: #1F1F24; }
+      .boton .enviar button:after {
+        content: "";
+        width: 90%;
+        height: 20%;
+        background: #c4b107;
+        position: absolute;
+        z-index: 1;
+        top: -5em;
+        left: 0;
+        transition: .3s ease-in-out all; }
+
+/*Colores*/
+/*Font Family*/
+/*Extends*/
+.boton a, .boton .enviar button, .fotos, main h2, body main div p {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main .grid-cont .casamiento, main .grid-cont .casamiento:hover, main .grid-cont .reunion, main .grid-cont .reunion:hover, main .grid-cont .cumpleaños, main .grid-cont .cumpleaños:hover, main .grid-cont .catadevino, main .grid-cont .catadevino:hover, main .grid-content div .piezasa1, main .grid-content div .piezasa1:hover, main .grid-content div .piezasa2, main .grid-content div .piezasa2:hover, body main .piezas .habi1, body main .piezas .habi1:hover, body main .piezas .habi2, body main .piezas .habi2:hover, body main .gastronomica, body main .gastronomica:hover, .grid-conteni .boda, .grid-conteni .boda:hover, .grid-conteni .roja, .grid-conteni .roja:hover, .grid-conteni .spaday, .grid-conteni .spaday:hover, .grid-conteni .relax, .grid-conteni .relax:hover {
+  box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box; }
+
+body .grid-mayor .gridis .navbar .container-fluid ul {
+  list-style-type: none;
+  font-size: 25px;
+  font-weight: 150; }
+  body .grid-mayor .gridis .navbar .container-fluid ul li {
+    display: inline-block; }
+    body .grid-mayor .gridis .navbar .container-fluid ul li a {
+      text-decoration: none;
+      color: white;
+      display: flex;
+      justify-content: flex-end;
+      text-transform: uppercase;
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.5625em; }
+
+body main div h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #c4b107; }
+
+body main div p {
+  font-family: "Montserrat", sans-serif; }
+
+body main .piezas {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding-top: 25px; }
+  body main .piezas .habi1 {
+    width: 430px;
+    height: 520px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    padding: 25px; }
+    body main .piezas .habi1:hover {
+      transform: translateY(-15px); }
+    body main .piezas .habi1 img {
+      width: 330px;
+      height: 330px; }
+    body main .piezas .habi1 h3 {
+      color: #c4b107;
+      font-weight: 600; }
+    body main .piezas .habi1 p {
+      font-family: "Montserrat", sans-serif; }
+    body main .piezas .habi1 .btn a {
+      text-decoration: none;
+      color: black; }
+  body main .piezas .habi2 {
+    width: 430px;
+    height: 520px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    padding: 25px; }
+    body main .piezas .habi2:hover {
+      transform: translateY(-15px); }
+    body main .piezas .habi2 img {
+      width: 330px;
+      height: 330px; }
+    body main .piezas .habi2 h3 {
+      color: #c4b107;
+      font-weight: 600; }
+    body main .piezas .habi2 p {
+      font-family: "Montserrat", sans-serif; }
+    body main .piezas .habi2 .btn a {
+      text-decoration: none;
+      color: black; }
+
+body main .gastronomica {
+  width: 930px;
+  max-width: 1200px;
+  height: 520px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  padding: 25px;
+  position: center; }
+  body main .gastronomica:hover {
+    transform: translateY(-15px); }
+  body main .gastronomica img {
+    width: 530px;
+    height: 330px; }
+  body main .gastronomica h3 {
+    color: #c4b107;
+    font-weight: 600; }
+  body main .gastronomica p {
+    font-family: "Montserrat", sans-serif; }
+  @media screen and (max-width: 768px) {
+    body main .gastronomica {
+      width: 430px;
+      height: 520px;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 20px;
+      text-align: center;
+      transition: all 0.25s;
+      padding: 25px; } }
+  @media screen and (max-width: 578px) {
+    body main .gastronomica {
+      width: 430px;
+      height: 520px;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 20px;
+      text-align: center;
+      transition: all 0.25s;
+      padding: 25px; } }
+
+/*Colores*/
+/*Font Family*/
+/*Extends*/
+.boton a, .boton .enviar button, .fotos, main h2, body main div p {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main .grid-cont .casamiento, main .grid-cont .casamiento:hover, main .grid-cont .reunion, main .grid-cont .reunion:hover, main .grid-cont .cumpleaños, main .grid-cont .cumpleaños:hover, main .grid-cont .catadevino, main .grid-cont .catadevino:hover, main .grid-content div .piezasa1, main .grid-content div .piezasa1:hover, main .grid-content div .piezasa2, main .grid-content div .piezasa2:hover, body main .piezas .habi1, body main .piezas .habi1:hover, body main .piezas .habi2, body main .piezas .habi2:hover, body main .gastronomica, body main .gastronomica:hover, .grid-conteni .boda, .grid-conteni .boda:hover, .grid-conteni .roja, .grid-conteni .roja:hover, .grid-conteni .spaday, .grid-conteni .spaday:hover, .grid-conteni .relax, .grid-conteni .relax:hover {
+  box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
+
+.slider {
+  width: 30%;
+  margin: auto;
+  overflow: hidden; }
+  .slider ul {
+    display: flex;
+    padding: 0;
+    width: 90%;
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
+    .slider ul li {
+      width: 30%;
+      list-style: none; }
+      .slider ul li img {
+        width: 335%; }
+
+@keyframes cambio {
+  0% {
+    margin-left: 0; }
+  15% {
+    margin-left: 0; }
+  20% {
+    margin-left: -100%; }
+  40% {
+    margin-left: -100%; } }
+
+.slider2 {
+  width: 95%;
+  margin: auto;
+  overflow: hidden; }
+  .slider2 ul {
+    display: flex;
+    padding: 0;
+    width: 200%;
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
+    .slider2 ul li {
+      width: 400%;
+      list-style: none; }
+      .slider2 ul li img {
+        width: 80%; }
+
+@keyframes cambio {
+  0% {
+    margin-left: 0; }
+  15% {
+    margin-left: 0; }
+  20% {
+    margin-left: -100%; }
+  40% {
+    margin-left: -100%; } }
+
+.boton {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5em;
+  margin: 1.875em; }
+  .boton a {
+    text-decoration: none;
+    display: inline-flex;
+    width: 90%;
+    height: 20%;
+    background-color: #1F1F24;
+    color: ivory;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 0.3125em;
+    position: relative;
+    overflow: hidden; }
+    .boton a span {
+      position: relative;
+      z-index: 2;
+      transition: .3s ease all; }
+  .boton:after {
+    content: "";
+    width: 90%;
+    height: 20%;
+    background: #c4b107;
+    position: absolute;
+    z-index: 1;
+    top: -5em;
+    left: 0;
+    transition: .3s ease-in-out all; }
+  .boton .enviar {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5em; }
+    .boton .enviar button {
+      text-decoration: none;
+      display: inline-flex;
+      width: 90%;
+      height: 20%;
+      background-color: #1F1F24;
+      color: ivory;
+      font-family: "Montserrat", sans-serif;
+      font-size: 0.9375em;
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: .3s ease all;
+      border-radius: 5px;
+      position: relative;
+      overflow: hidden; }
+      .boton .enviar button input {
+        position: relative;
+        z-index: 2;
+        transition: .3s ease all;
+        font-family: "Montserrat", sans-serif;
+        background-color: #1F1F24; }
+      .boton .enviar button:after {
+        content: "";
+        width: 90%;
+        height: 20%;
+        background: #c4b107;
+        position: absolute;
+        z-index: 1;
+        top: -5em;
+        left: 0;
+        transition: .3s ease-in-out all; }
+
+/*Colores*/
+/*Font Family*/
+/*Extends*/
+.boton a, .boton .enviar button, .fotos, main h2, body main div p {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main .grid-cont .casamiento, main .grid-cont .casamiento:hover, main .grid-cont .reunion, main .grid-cont .reunion:hover, main .grid-cont .cumpleaños, main .grid-cont .cumpleaños:hover, main .grid-cont .catadevino, main .grid-cont .catadevino:hover, main .grid-content div .piezasa1, main .grid-content div .piezasa1:hover, main .grid-content div .piezasa2, main .grid-content div .piezasa2:hover, body main .piezas .habi1, body main .piezas .habi1:hover, body main .piezas .habi2, body main .piezas .habi2:hover, body main .gastronomica, body main .gastronomica:hover, .grid-conteni .boda, .grid-conteni .boda:hover, .grid-conteni .roja, .grid-conteni .roja:hover, .grid-conteni .spaday, .grid-conteni .spaday:hover, .grid-conteni .relax, .grid-conteni .relax:hover {
+  box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box; }
+
+.grid-conteni {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding-top: 25px; }
+  .grid-conteni .boda {
+    width: 430px;
+    height: 420px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    padding: 25px; }
+    .grid-conteni .boda:hover {
+      transform: translateY(-15px); }
+    .grid-conteni .boda img {
+      width: 100%;
       height: 50%; }
+    .grid-conteni .boda h3 {
+      color: #c4b107;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600; }
+    .grid-conteni .boda p {
+      font-family: "Montserrat", sans-serif; }
+    .grid-conteni .boda .btn a {
+      text-decoration: none;
+      color: black; }
+  .grid-conteni .roja {
+    width: 430px;
+    height: 420px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    padding: 25px; }
+    .grid-conteni .roja:hover {
+      transform: translateY(-15px); }
+    .grid-conteni .roja img {
+      width: 100%;
+      height: 50%; }
+    .grid-conteni .roja h3 {
+      color: #c4b107;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600; }
+    .grid-conteni .roja p {
+      font-family: "Montserrat", sans-serif; }
+    .grid-conteni .roja .btn a {
+      text-decoration: none;
+      color: black; }
+  .grid-conteni .spaday {
+    width: 430px;
+    height: 420px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    padding: 25px; }
+    .grid-conteni .spaday:hover {
+      transform: translateY(-15px); }
+    .grid-conteni .spaday img {
+      width: 100%;
+      height: 50%; }
+    .grid-conteni .spaday h3 {
+      color: #c4b107;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600; }
+    .grid-conteni .spaday p {
+      font-family: "Montserrat", sans-serif; }
+    .grid-conteni .spaday .btn a {
+      text-decoration: none;
+      color: black; }
+  .grid-conteni .relax {
+    width: 430px;
+    height: 420px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    padding: 25px; }
+    .grid-conteni .relax:hover {
+      transform: translateY(-15px); }
+    .grid-conteni .relax img {
+      width: 100%;
+      height: 50%; }
+    .grid-conteni .relax h3 {
+      color: #c4b107;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600; }
+    .grid-conteni .relax p {
+      font-family: "Montserrat", sans-serif; }
+    .grid-conteni .relax .btn a {
+      text-decoration: none;
+      color: black; }
 
 /*Colores*/
 /*Font Family*/
 /*Extends*/
-.boton a, .boton .enviar button, .main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .fotos, .main h2, .main .grid-content, .main .grid-content .flex-content, .main .grid-content .flex-content .piezasa1 h3, .main .grid-content .flex-content .piezasa1 .boton a, .main .grid-content .flex-content .piezasa1 .boton .enviar button, .main .grid-content .flex-content .piezasa h3, .main .grid-content .flex-content .piezasa .boton a, .main .hero, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza1 .botoncito, .main .grid-contenedor .pieza1 .botoncito a, .main .grid-contenedor .pieza2, .main .grid-contenedor .pieza2 .botoncito, .main .grid-contenedor .pieza2 .botoncito a, .main .grid-contenedor .pieza2 .botoncito a .enviar button, .main .ubi, .grid-conten .boda, .grid-conten .roja, .grid-conten .spaday, .grid-conten .relax, .grid-conten .botoncito a, .grid-conten .botoncito .enviar button {
+.boton a, .boton .enviar button, .fotos, main h2, body main div p {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.main .grid-contenedor .pieza2, .main .ubi {
-  margin: 80%;
-  height: 80%;
-  padding: 0.3125em;
-  margin: 0.3125em; }
-
-.main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza2, .main .grid-contenedor .flexsito {
+main .grid-cont .casamiento, main .grid-cont .casamiento:hover, main .grid-cont .reunion, main .grid-cont .reunion:hover, main .grid-cont .cumpleaños, main .grid-cont .cumpleaños:hover, main .grid-cont .catadevino, main .grid-cont .catadevino:hover, main .grid-content div .piezasa1, main .grid-content div .piezasa1:hover, main .grid-content div .piezasa2, main .grid-content div .piezasa2:hover, body main .piezas .habi1, body main .piezas .habi1:hover, body main .piezas .habi2, body main .piezas .habi2:hover, body main .gastronomica, body main .gastronomica:hover, .grid-conteni .boda, .grid-conteni .boda:hover, .grid-conteni .roja, .grid-conteni .roja:hover, .grid-conteni .spaday, .grid-conteni .spaday:hover, .grid-conteni .relax, .grid-conteni .relax:hover {
   box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
-
-.main .grid-contenedor .pieza1 .botoncito a {
-  width: 100%;
-  height: 90%; }
 
 .slider {
   width: 30%;
@@ -1613,25 +1524,15 @@ footer {
 /*Colores*/
 /*Font Family*/
 /*Extends*/
-.boton a, .boton .enviar button, .main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .fotos, .main h2, .main .grid-content, .main .grid-content .flex-content, .main .grid-content .flex-content .piezasa1 h3, .main .grid-content .flex-content .piezasa1 .boton a, .main .grid-content .flex-content .piezasa1 .boton .enviar button, .main .grid-content .flex-content .piezasa h3, .main .grid-content .flex-content .piezasa .boton a, .main .hero, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza1 .botoncito, .main .grid-contenedor .pieza1 .botoncito a, .main .grid-contenedor .pieza2, .main .grid-contenedor .pieza2 .botoncito, .main .grid-contenedor .pieza2 .botoncito a, .main .grid-contenedor .pieza2 .botoncito a .enviar button, .main .ubi, .grid-conten .boda, .grid-conten .roja, .grid-conten .spaday, .grid-conten .relax, .grid-conten .botoncito a, .grid-conten .botoncito .enviar button {
+.boton a, .boton .enviar button, .fotos, main h2, body main div p {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.main .grid-contenedor .pieza2, .main .ubi {
-  margin: 80%;
-  height: 80%;
-  padding: 0.3125em;
-  margin: 0.3125em; }
-
-.main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza2, .main .grid-contenedor .flexsito {
+main .grid-cont .casamiento, main .grid-cont .casamiento:hover, main .grid-cont .reunion, main .grid-cont .reunion:hover, main .grid-cont .cumpleaños, main .grid-cont .cumpleaños:hover, main .grid-cont .catadevino, main .grid-cont .catadevino:hover, main .grid-content div .piezasa1, main .grid-content div .piezasa1:hover, main .grid-content div .piezasa2, main .grid-content div .piezasa2:hover, body main .piezas .habi1, body main .piezas .habi1:hover, body main .piezas .habi2, body main .piezas .habi2:hover, body main .gastronomica, body main .gastronomica:hover, .grid-conteni .boda, .grid-conteni .boda:hover, .grid-conteni .roja, .grid-conteni .roja:hover, .grid-conteni .spaday, .grid-conteni .spaday:hover, .grid-conteni .relax, .grid-conteni .relax:hover {
   box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
-
-.main .grid-contenedor .pieza1 .botoncito a {
-  width: 100%;
-  height: 90%; }
 
 * {
   margin: 0;
@@ -1640,168 +1541,31 @@ footer {
   outline: 0;
   box-sizing: border-box; }
 
-.grid-conten {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "boda roja" "spaday relax"; }
-  .grid-conten .boda {
-    grid-area: boda;
-    display: grid;
+main {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  padding-top: 50px; }
+  main h2 {
+    font-weight: 600;
     font-family: "Montserrat", sans-serif;
-    display: inline-block;
-    box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-    margin: 1.25em;
-    width: 55%;
-    height: 47%;
-    text-align: center; }
-    .grid-conten .boda img {
-      width: 50%;
-      height: 35%; }
-  .grid-conten .roja {
-    grid-area: roja;
-    display: grid;
-    font-family: "Montserrat", sans-serif;
-    display: inline-block;
-    box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-    margin: 1.25em;
-    width: 55%;
-    height: 47%;
-    text-align: center; }
-    .grid-conten .roja .img {
-      width: 50%;
-      height: 35%; }
-  .grid-conten .spaday {
-    grid-area: spaday;
-    display: grid;
-    font-family: "Montserrat", sans-serif;
-    display: inline-block;
-    box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-    margin: 1.25em;
-    width: 55%;
-    height: 47%;
-    text-align: center; }
-    .grid-conten .spaday .img {
-      width: 50%;
-      height: 35%; }
-  .grid-conten .relax {
-    grid-area: relax;
-    display: grid;
-    font-family: "Montserrat", sans-serif;
-    display: inline-block;
-    box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-    margin: 1.25em;
-    width: 55%;
-    height: 47%;
-    text-align: center; }
-    .grid-conten .relax .img {
-      width: 50%;
-      height: 35%; }
-  .grid-conten .botoncito {
-    width: 85%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5em;
-    margin: 1.875em; }
-    .grid-conten .botoncito a {
-      text-decoration: none;
-      display: inline-flex;
-      width: 46%;
-      height: 2%;
-      background-color: #1F1F24;
-      color: ivory;
-      font-family: "Montserrat", sans-serif;
-      font-size: 15px;
-      border: none;
-      cursor: pointer;
-      text-transform: uppercase;
-      transition: .3s ease all;
-      border-radius: 0.3125em;
-      position: relative;
-      overflow: hidden; }
-      .grid-conten .botoncito a span {
-        position: relative;
-        z-index: 2;
-        transition: .3s ease all; }
-    .grid-conten .botoncito:after {
-      content: "";
-      width: 46%;
-      height: 20%;
-      background: #c4b107;
-      position: absolute;
-      z-index: 1;
-      top: -5em;
-      left: 0;
-      transition: .3s ease-in-out all; }
-    .grid-conten .botoncito .enviar {
-      width: 85%;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2.5em; }
-      .grid-conten .botoncito .enviar button {
-        text-decoration: none;
-        display: inline-flex;
-        width: 60%;
-        height: 20%;
-        background-color: #1F1F24;
-        color: ivory;
-        font-family: "Montserrat", sans-serif;
-        font-size: 15px;
-        border: none;
-        cursor: pointer;
-        text-transform: uppercase;
-        transition: .3s ease all;
-        border-radius: 0.3125rem;
-        position: relative;
-        overflow: hidden; }
-        .grid-conten .botoncito .enviar button input {
-          position: relative;
-          z-index: 2;
-          transition: .3s ease all;
-          font-family: "Montserrat", sans-serif; }
-        .grid-conten .botoncito .enviar button::after {
-          content: "";
-          width: 60%;
-          height: 20%;
-          background: #c4b107;
-          position: absolute;
-          z-index: 1;
-          top: -5em;
-          left: 0;
-          transition: .3s ease-in-out all; }
+    color: #c4b107; }
+  main .btn a {
+    text-decoration: none;
+    color: black; }
 
 /*Colores*/
 /*Font Family*/
 /*Extends*/
-.boton a, .boton .enviar button, .main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .fotos, .main h2, .main .grid-content, .main .grid-content .flex-content, .main .grid-content .flex-content .piezasa1 h3, .main .grid-content .flex-content .piezasa1 .boton a, .main .grid-content .flex-content .piezasa1 .boton .enviar button, .main .grid-content .flex-content .piezasa h3, .main .grid-content .flex-content .piezasa .boton a, .main .hero, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza1 .botoncito, .main .grid-contenedor .pieza1 .botoncito a, .main .grid-contenedor .pieza2, .main .grid-contenedor .pieza2 .botoncito, .main .grid-contenedor .pieza2 .botoncito a, .main .grid-contenedor .pieza2 .botoncito a .enviar button, .main .ubi, .grid-conten .boda, .grid-conten .roja, .grid-conten .spaday, .grid-conten .relax, .grid-conten .botoncito a, .grid-conten .botoncito .enviar button {
+.boton a, .boton .enviar button, .fotos, main h2, body main div p {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.main .grid-contenedor .pieza2, .main .ubi {
-  margin: 80%;
-  height: 80%;
-  padding: 0.3125em;
-  margin: 0.3125em; }
-
-.main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza2, .main .grid-contenedor .flexsito {
+main .grid-cont .casamiento, main .grid-cont .casamiento:hover, main .grid-cont .reunion, main .grid-cont .reunion:hover, main .grid-cont .cumpleaños, main .grid-cont .cumpleaños:hover, main .grid-cont .catadevino, main .grid-cont .catadevino:hover, main .grid-content div .piezasa1, main .grid-content div .piezasa1:hover, main .grid-content div .piezasa2, main .grid-content div .piezasa2:hover, body main .piezas .habi1, body main .piezas .habi1:hover, body main .piezas .habi2, body main .piezas .habi2:hover, body main .gastronomica, body main .gastronomica:hover, .grid-conteni .boda, .grid-conteni .boda:hover, .grid-conteni .roja, .grid-conteni .roja:hover, .grid-conteni .spaday, .grid-conteni .spaday:hover, .grid-conteni .relax, .grid-conteni .relax:hover {
   box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
-
-.main .grid-contenedor .pieza1 .botoncito a {
-  width: 100%;
-  height: 90%; }
 
 .slider {
   width: 30%;
@@ -1929,32 +1693,37 @@ footer {
         left: 0;
         transition: .3s ease-in-out all; }
 
-/*Colores*/
-/*Font Family*/
-/*Extends*/
-.boton a, .boton .enviar button, .main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .fotos, .main h2, .main .grid-content, .main .grid-content .flex-content, .main .grid-content .flex-content .piezasa1 h3, .main .grid-content .flex-content .piezasa1 .boton a, .main .grid-content .flex-content .piezasa1 .boton .enviar button, .main .grid-content .flex-content .piezasa h3, .main .grid-content .flex-content .piezasa .boton a, .main .hero, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza1 .botoncito, .main .grid-contenedor .pieza1 .botoncito a, .main .grid-contenedor .pieza2, .main .grid-contenedor .pieza2 .botoncito, .main .grid-contenedor .pieza2 .botoncito a, .main .grid-contenedor .pieza2 .botoncito a .enviar button, .main .ubi, .grid-conten .boda, .grid-conten .roja, .grid-conten .spaday, .grid-conten .relax, .grid-conten .botoncito a, .grid-conten .botoncito .enviar button {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.main .grid-contenedor .pieza2, .main .ubi {
-  margin: 80%;
-  height: 80%;
-  padding: 0.3125em;
-  margin: 0.3125em; }
-
-.main .grid-cont .casamiento, .main .grid-cont .reunion, .main .grid-cont .cumpleaños, .main .grid-contenedor .pieza1, .main .grid-contenedor .pieza2, .main .grid-contenedor .flexsito {
-  box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
-
-.main .grid-contenedor .pieza1 .botoncito a {
-  width: 100%;
-  height: 90%; }
-
 * {
   margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
   box-sizing: border-box; }
+
+/*Colores*/
+/*Font Family*/
+/*Extends*/
+.boton a, .boton .enviar button, .fotos, main h2, body main div p {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main .grid-cont .casamiento, main .grid-cont .casamiento:hover, main .grid-cont .reunion, main .grid-cont .reunion:hover, main .grid-cont .cumpleaños, main .grid-cont .cumpleaños:hover, main .grid-cont .catadevino, main .grid-cont .catadevino:hover, main .grid-content div .piezasa1, main .grid-content div .piezasa1:hover, main .grid-content div .piezasa2, main .grid-content div .piezasa2:hover, body main .piezas .habi1, body main .piezas .habi1:hover, body main .piezas .habi2, body main .piezas .habi2:hover, body main .gastronomica, body main .gastronomica:hover, .grid-conteni .boda, .grid-conteni .boda:hover, .grid-conteni .roja, .grid-conteni .roja:hover, .grid-conteni .spaday, .grid-conteni .spaday:hover, .grid-conteni .relax, .grid-conteni .relax:hover {
+  box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(166, 154, 163, 0.75); }
+
+body main .nuestra-ubi {
+  width: 100%;
+  max-width: 1200px;
+  height: 630px; }
+  body main .nuestra-ubi h2 {
+    padding-top: 40px;
+    color: #c4b107;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600; }
+  body main .nuestra-ubi p {
+    font-family: "Montserrat", sans-serif; }
+  body main .nuestra-ubi iframe {
+    width: 330px;
+    height: 330px; }
