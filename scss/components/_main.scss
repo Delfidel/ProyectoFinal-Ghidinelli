@@ -11,8 +11,8 @@ body{
                 .container-fluid{
                     ul{
                         list-style-type: none;
-                        font-size: 25px;
-                        font-weight: 150;
+                        font-size: 15px;
+                        font-weight: 120;
                         li{
                             display: inline-block;
                             a{
@@ -30,15 +30,20 @@ body{
             }
         }
     }
+
     main{
         div{
             h2{
                 font-family: $Font-always;
                 color: $color-letras;
-            }
+                }
             p{
                 font-family: $Font-always;
                 @extend%flex;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
             }
         }
         .piezas{
@@ -142,7 +147,7 @@ body{
                 p{
                     font-family: $Font-always;
                 }
-                @include tablet{
+                @include media-up (lg){
                     width: 430px;
                     height: 520px;
                     border-radius: 8px;
@@ -150,17 +155,35 @@ body{
                     margin: 20px;
                     text-align: center;
                     transition: all 0.25s;
-                    padding: 25px;
+                    padding-left: 45px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
                 }
-                @include mobile{
-                    width: 430px;
-                    height: 520px;
+                @include media-up (sm){
+                    width: 320px;
+                    height: 230px;
                     border-radius: 8px;
                     overflow: hidden;
                     margin: 20px;
                     text-align: center;
                     transition: all 0.25s;
-                    padding: 25px;
+                    padding-top: 25px;
+
+                    padding-left: 35px;
+                }
+                @include media-up (md){
+                    width: 630px;
+                    height: 200px;
+                    border-radius: 8px;
+                    overflow: hidden;
+                    margin: 20px;
+                    text-align: center;
+                    transition: all 0.25s;
+                    padding-top: 25px;
+
+                    padding-left: 35px;
                 }
         }
     }

@@ -63,6 +63,29 @@ main{
             p{
                 font-family: $Font-always;
                 }
+                @include media-up(sm){
+                    width: 320px;
+                    height: 230px;
+                    border-radius: 8px;
+                    overflow: hidden;
+                    margin: 20px;
+                    text-align: center;
+                    transition: all 0.25s;
+                    padding-top: 25px;
+                    padding-left: 35px;
+                
+            }
+            @include media-up (md){
+                width: 320px;
+                height: 380px;
+                border-radius: 8px;
+                overflow: hidden;
+                margin: 20px;
+                text-align: center;
+                transition: all 0.25s;
+                padding-top: 25px;
+                padding-left: 35px;
+            }
             }
             .piezasa2{
                 width:630px ;
@@ -107,8 +130,18 @@ main{
         p{
             font-family: $Font-always;
         }
-    
-                }
+        @include media-up(sm){
+            width: 445px;
+            height: 380px;
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 30px;
+            text-align: center;
+            transition: all 0.25s;
+            padding-left: 60px;
+
+        }
+            }
         }
     }
 }                        

@@ -18,6 +18,16 @@
         
     }
 }
+$breakpoints:(
+    sm: 540px,
+    md: 765px,
+    lg:1024px,
+);
+@mixin media-up($breakpoints)  {
+@media screen and (min-width: map-get($breakpoints, $breakpoints)){
+    @content
+}
+}
 
 
 

@@ -1026,6 +1026,30 @@ main .grid-content div .piezasa2 h3 {
 main .grid-content div .piezasa2 p {
   font-family: "Montserrat", sans-serif;
 }
+@media screen and (max-width: 578px) {
+  main {
+    width: 430px;
+    height: 520px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    padding: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main {
+    width: 430px;
+    height: 520px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    padding: 25px;
+  }
+}
 
 /*Colores*/
 /*Font Family*/
@@ -1236,8 +1260,8 @@ body main div p, .boton a, .boton .enviar button, .fotos, main h2 {
 
 body .grid-mayor .gridis .navbar .container-fluid ul {
   list-style-type: none;
-  font-size: 25px;
-  font-weight: 150;
+  font-size: 15px;
+  font-weight: 120;
 }
 body .grid-mayor .gridis .navbar .container-fluid ul li {
   display: inline-block;
@@ -1257,6 +1281,10 @@ body main div h2 {
 }
 body main div p {
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 body main .piezas {
   width: 100%;
