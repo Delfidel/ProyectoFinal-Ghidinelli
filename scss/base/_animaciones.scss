@@ -1,7 +1,8 @@
 @import"./variables";
 
 .slider{
-    width:30%;
+    width:50%;
+    height: 50%;
     margin: auto;
     overflow: hidden;
     ul{
@@ -139,3 +140,34 @@
                     }
                 }
             }
+
+
+
+            .slider3{
+                width: 95%;
+                margin: auto;
+                overflow: hidden;
+                ul{
+                    display: flex;
+                    padding: 0;
+                    width: 200%;
+                
+                    animation: cambio 20s infinite alternate;
+                    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+                    li{
+                        width: 400%;
+                        list-style: none;
+                        img{
+                            width: 80%;
+                        }
+                    }
+                }
+                @keyframes cambio{
+                    0%{margin-left: 0;}
+                    15%{margin-left: 0;}
+                
+                    20%{margin-left: -100%;}
+                    40%{margin-left: -100%;}
+                }
+            }
+            
