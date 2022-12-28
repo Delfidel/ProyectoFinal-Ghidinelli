@@ -11,17 +11,20 @@ class Reservo {
   const numeroReserva = [];
   const habitacion = [];
   const newReservo = [];
-  const nuevaReserva = newReservo (nombreCliente, apellidoCliente, numeroReserva, habitacion);
+  const nuevaReservo = (nombreCliente, apellidoCliente, numeroReserva, habitacion);
   
   
   /*****************************/
-  //Si el LocalStorage tiene datos, los agrego al Array de Reservas.
   
+  const reservas = [];
+
+
+
   if (localStorage.getItem('reservo')) {
-    let reserva = JSON.parse(localStorage.getItem('reserva'));
+    let reservo = JSON.parse(localStorage.getItem('reservo'));
     /* reservas.push(...reserva); */
-    for (let i = 0; i < reserva.length; i++) {
-      reservas.push(reserva[i]);
+    for (let i = 0; i < reservo.length; i++) {
+      reservas.push(reservo[i]);
     }
   }
   
@@ -31,20 +34,24 @@ class Reservo {
   
   formulario.addEventListener('submit', (e) => {
     e.preventDefault();
-    agregarReserva();
+    agregarReservo();
   });
   
-  function agregarReserva() {
-    const nombre = document.getElementById('nombre').value;
-    const apellido = document.getElementById('apellido').value;
-    const reserva = document.getElementById('reserva').value;
-    const habitacion = document.getElementById('habitacion').value;
-    const nuevaReserva = newReservo(nombre, apellido, reserva, habitacion); !!111111
-    reservas.push(nuevaReserva);
+  function agregarReservo() {
+    var nombre = document.getElementById('nombre').value;
+    var apellido = document.getElementById('apellido').value;
+    var numero= document.getElementById('reservo').value;
+    var habitacion = document.getElementById('habitacion').value;
+    const nuevaReservo = (nombre, apellido, reservo, habitacion); 
+    
+    
+    reservas.push(nuevaReservo);
     //Agrego al LocalStorage:
-    localStorage.setItem('reserva', JSON.stringify(reservas));
+    localStorage.setItem('reservo', JSON.stringify(reservas));
     formulario.reset();
   }
+
+  
   
   const contenedorReservas = document.getElementById('contenedorReservas');
   
@@ -56,14 +63,14 @@ class Reservo {
   
   function mostrarReservas() {
     contenedorReservas.innerHTML = '';
-    reservas.forEach((reserva) => {
+    reservas.forEach((reservo) => {
       const div = document.createElement('div');
       div.innerHTML = `
                         <div>
-                            <p>Nombre del Cliente: ${reserva.nombreCliente}</p>
-                            <p>Apellido del Cliente: ${reserva.apellidoCliente}</p>
-                            <p>Número Reserva: ${reserva.numeroReserva}</p>
-                            <p>Habitación: ${reserva.habitacion}</p>
+                            <p>Nombre del Cliente: ${reservo.nombreCliente}</p>
+                            <p>Apellido del Cliente: ${reservo.apellidoCliente}</p>
+                            <p>Número Reserva: ${reservo.numeroReserva}</p>
+                            <p>Habitación: ${reservo.habitacion}</p>
                         </div>
         
                         `;
