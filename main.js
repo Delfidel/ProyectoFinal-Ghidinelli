@@ -10,8 +10,8 @@ class Reservo {
   const apellidoCliente = [];
   const numeroReserva = [];
   const habitacion = [];
-  const newReservo = [];
-  const nuevaReservo = (nombreCliente, apellidoCliente, numeroReserva, habitacion);
+  
+  const nuevaReservo = new Reservo (nombreCliente, apellidoCliente, numeroReserva, habitacion);
   
   
   /*****************************/
@@ -38,11 +38,11 @@ class Reservo {
   });
   
   function agregarReservo() {
-    var nombre = document.getElementById('nombre').value;
-    var apellido = document.getElementById('apellido').value;
-    var numero= document.getElementById('reservo').value;
-    var habitacion = document.getElementById('habitacion').value;
-    const nuevaReservo = (nombre, apellido, reservo, habitacion); 
+    let nombre = document.getElementById('nombre').value;
+    let apellido = document.getElementById('apellido').value;
+    let numero = document.getElementById('reservo').value;
+    let habitacion = document.getElementById('habitacion').value;
+    const nuevaReservo = new Reservo (nombre, apellido, numero, habitacion);
     
     
     reservas.push(nuevaReservo);
