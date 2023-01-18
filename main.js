@@ -58,7 +58,9 @@ class Reservo {
   const verReservas = document.getElementById('verReservas');
   
   verReservas.addEventListener('click', () => {
+    temperatura();
     mostrarReservas();
+    
   });
   
   function mostrarReservas() {
@@ -76,5 +78,100 @@ class Reservo {
                         `;
       contenedorReservas.appendChild(div);
     });
-  }
+
+
+
+
+
+
+
+//fetch//
+//conectar//
+const clima = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': 'e664a87849msh970ba6f9ad6a5cdp1a2067jsnd8dedeaf73dd',
+		'X-RapidAPI-Host': 'air-quality-by-api-ninjas.p.rapidapi.com'
+	}
+};
+
+
+fetch('https://air-quality-by-api-ninjas.p.rapidapi.com/v1/airquality?lat=33&lon=69&city=valle%20de%20uco', clima)
+	.then(response => response.json())
+	.then(clima => {console.log(clima)
+                    temperatura(datos) ;
+                  })
+  .then(({temperatura}) => {
+                    temperatura.innerHTML = `
+                    <h4>Temperatura en estos momentos: ${temperatura}</h4>
+                    `
+                    console.log(temperatura)
+                })
+	.catch(err => console.error(err));
+
+
+
+
+
+
+
+
+//const apiFotos = "https://jsonplaceholder.typicode.com/photos";
+//const contenedorFotos = document.getElementById("contenedorFotos");
+
+//fetch(apiFotos)
+    //.then(respuesta => respuesta.json())
+    //function mostrarFotos(datos) {
+     // datos.forEach( foto => {
+      //    const img = document.createElement("img"); 
+      //    img.src = foto.url;
+       //   contenedorFotos.appendChild(img);
+   //   })
+   // .then((datos) => {
+    //    console.log(datos);
+   //     mostrarFotos(datos);
+   // })
+
+   // .catch(error => console.log(error))
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
