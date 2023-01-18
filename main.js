@@ -87,27 +87,63 @@ class Reservo {
 
 //fetch//
 //conectar//
-const clima = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': 'e664a87849msh970ba6f9ad6a5cdp1a2067jsnd8dedeaf73dd',
-		'X-RapidAPI-Host': 'air-quality-by-api-ninjas.p.rapidapi.com'
-	}
-};
 
 
-fetch('https://air-quality-by-api-ninjas.p.rapidapi.com/v1/airquality?lat=33&lon=69&city=valle%20de%20uco', clima)
-	.then(response => response.json())
-	.then(clima => {console.log(clima)
-                    clima(datos) ;
-                  })
-  .then(({clima}) => {
-                    clima.innerHTML = `
-                    <h4>Temperatura en estos momentos: ${clima}</h4>
-                    `
-                    console.log(temperatura)
-                })
-	.catch(err => console.error(err));
+const excursiones = document.getElementById("excursiones");
+const listadoExcursiones = "json/excursiones.json";
+
+fetch(listadoExcursiones)
+    .then(respuesta => respuesta.json())
+    .then(datos => {
+        datos.forEach( excursiones => {
+            excursiones.innerHTML += `
+                <h2>Nombre: ${excursiones.nombre} </h2>
+                <p> Precio: ${excursiones.precio} </p>
+                <p> ID: ${excursiones.id} </p>
+            `
+        })
+    })
+    .catch(error => console.log(error))
+    .finally( () => console.log("Proceso Finalizado"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//const clima = {
+	////method: 'GET',
+	//headers: {
+	//	'X-RapidAPI-Key': 'e664a87849msh970ba6f9ad6a5cdp1a2067jsnd8dedeaf73dd',
+	/////////	'X-RapidAPI-Host': 'air-quality-by-api-ninjas.p.rapidapi.com'
+	//}
+//}//;
+
+
+//////fetch('https://air-quality-by-api-ninjas.p.rapidapi.com/v1/airquality?lat=33&lon=69&city=valle%20de%20uco', clima)
+//	.then(response => response.json())
+//	.then(response => {console.log(clima) ;
+ //                 })
+ // .then(({clima}) => {
+ //                   clima.innerHTML = `
+ //                   <h4>Temperatura en estos momentos: ${clima}</h4>
+  //                  `
+  //                  console.log(temperatura)
+  //              })
+//	.catch(err => console.error(err));
 
 
 
