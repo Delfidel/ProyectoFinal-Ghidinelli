@@ -58,7 +58,7 @@ class Reservo {
   const verReservas = document.getElementById('verReservas');
   
   verReservas.addEventListener('click', () => {
-    temperatura();
+    
     mostrarReservas();
     
   });
@@ -99,11 +99,11 @@ const clima = {
 fetch('https://air-quality-by-api-ninjas.p.rapidapi.com/v1/airquality?lat=33&lon=69&city=valle%20de%20uco', clima)
 	.then(response => response.json())
 	.then(clima => {console.log(clima)
-                    temperatura(datos) ;
+                    clima(datos) ;
                   })
-  .then(({temperatura}) => {
-                    temperatura.innerHTML = `
-                    <h4>Temperatura en estos momentos: ${temperatura}</h4>
+  .then(({clima}) => {
+                    clima.innerHTML = `
+                    <h4>Temperatura en estos momentos: ${clima}</h4>
                     `
                     console.log(temperatura)
                 })
