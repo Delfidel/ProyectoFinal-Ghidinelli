@@ -1,3 +1,4 @@
+
 class Reservo {
     constructor(nombreCliente, apellidoCliente, numeroReserva, habitacion) {
       this.nombreCliente = nombreCliente;
@@ -79,6 +80,35 @@ class Reservo {
       contenedorReservas.appendChild(div);
     });
 
+    const options = {
+      method: 'GET',
+      headers: {
+        'X-RapidAPI-Key': 'e664a87849msh970ba6f9ad6a5cdp1a2067jsnd8dedeaf73dd',
+        'X-RapidAPI-Host': 'foreca-weather.p.rapidapi.com'
+      }
+    };
+    
+    fetch('https://foreca-weather.p.rapidapi.com/location/search/mendoza?lang=es&country=ar', options)
+      .then(response => response.json())
+      .then(response => console.log(response))
+      .catch(err => console.error(err));
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -89,86 +119,24 @@ class Reservo {
 //conectar//
 
 
-const excursiones = document.getElementById("excursiones");
-const listadoExcursiones = "json/excursiones.json";
+//const excursiones = document.getElementById("excursiones");
+//const ruta = "../json/excursiones.json" ;
 
-fetch(listadoExcursiones)
-    .then(respuesta => respuesta.json())
-    .then(datos => {
-        datos.forEach( excursiones => {
-            excursiones.innerHTML += `
-                <h2>Nombre: ${excursiones.nombre} </h2>
-                <p> Precio: ${excursiones.precio} </p>
-                <p> ID: ${excursiones.id} </p>
-            `
-        })
-    })
-    .catch(error => console.log(error))
-    .finally( () => console.log("Proceso Finalizado"))
-
-
+ //fetch(ruta)
+   // .then(respuesta => respuesta.json())
+    //.then(datos => {
+    //    datos.forEach( atributo => {
+     //       atributo.innerHTML += `
+     //           <h2>Nombre: ${atributo.nombre} </h2>
+      //          <p> Precio: ${atributo.precio} </p>
+      //          <p> ID: ${atributo.id} </p>
+       ///     `
+       // })
+ //   })
+  //  .catch(error => console.log(error))
+  //  .finally( () => console.log("Proceso Finalizado"))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//const clima = {
-	////method: 'GET',
-	//headers: {
-	//	'X-RapidAPI-Key': 'e664a87849msh970ba6f9ad6a5cdp1a2067jsnd8dedeaf73dd',
-	/////////	'X-RapidAPI-Host': 'air-quality-by-api-ninjas.p.rapidapi.com'
-	//}
-//}//;
-
-
-//////fetch('https://air-quality-by-api-ninjas.p.rapidapi.com/v1/airquality?lat=33&lon=69&city=valle%20de%20uco', clima)
-//	.then(response => response.json())
-//	.then(response => {console.log(clima) ;
- //                 })
- // .then(({clima}) => {
- //                   clima.innerHTML = `
- //                   <h4>Temperatura en estos momentos: ${clima}</h4>
-  //                  `
-  //                  console.log(temperatura)
-  //              })
-//	.catch(err => console.error(err));
-
-
-
-
-
-
-
-
-//const apiFotos = "https://jsonplaceholder.typicode.com/photos";
-//const contenedorFotos = document.getElementById("contenedorFotos");
-
-//fetch(apiFotos)
-    //.then(respuesta => respuesta.json())
-    //function mostrarFotos(datos) {
-     // datos.forEach( foto => {
-      //    const img = document.createElement("img"); 
-      //    img.src = foto.url;
-       //   contenedorFotos.appendChild(img);
-   //   })
-   // .then((datos) => {
-    //    console.log(datos);
-   //     mostrarFotos(datos);
-   // })
-
-   // .catch(error => console.log(error))
 
 
 
@@ -210,4 +178,4 @@ fetch(listadoExcursiones)
 
 
 
-  
+      
