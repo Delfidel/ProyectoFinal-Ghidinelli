@@ -92,55 +92,6 @@ class Reservo {
       .then(response => response.json())
       .then(response => console.log(response))
       .catch(err => console.error(err));
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//fetch//
-//conectar//
-
-
-//const excursiones = document.getElementById("excursiones");
-//const ruta = "../json/excursiones.json" ;
-
- //fetch(ruta)
-   // .then(respuesta => respuesta.json())
-    //.then(datos => {
-    //    datos.forEach( atributo => {
-     //       atributo.innerHTML += `
-     //           <h2>Nombre: ${atributo.nombre} </h2>
-      //          <p> Precio: ${atributo.precio} </p>
-      //          <p> ID: ${atributo.id} </p>
-       ///     `
-       // })
- //   })
-  //  .catch(error => console.log(error))
-  //  .finally( () => console.log("Proceso Finalizado"))
-
-
-
-
-
-
 
 
 
